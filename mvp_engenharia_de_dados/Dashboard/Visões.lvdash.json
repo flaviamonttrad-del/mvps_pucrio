@@ -1,0 +1,1645 @@
+{
+  "datasets": [
+    {
+      "name": "02202147",
+      "displayName": "vw_tendencia_temporal_risco",
+      "config": {
+        "version": "1.1",
+        "source": "mvp.mvp_queries.vw_tendencia_temporal_risco",
+        "dimensions": [
+          {
+            "expr": "source.*"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "adf6fb8a",
+      "displayName": "vw_funil_med",
+      "config": {
+        "version": "1.1",
+        "source": "mvp.mvp_queries.vw_funil_med",
+        "dimensions": [
+          {
+            "expr": "source.*"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "fd1d2b47",
+      "displayName": "vw_gargalos_devolucao_med",
+      "config": {
+        "version": "1.1",
+        "source": "mvp.mvp_queries.vw_gargalos_devolucao_med",
+        "dimensions": [
+          {
+            "expr": "source.*"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "a52a6b1e",
+      "displayName": "vw_kpi_topo",
+      "config": {
+        "version": "1.1",
+        "source": "mvp.gold.vw_kpi_topo",
+        "dimensions": [
+          {
+            "expr": "source.*"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "b1bc8fd7",
+      "displayName": "vw_tendencia_temporal_risco",
+      "config": {
+        "version": "1.1",
+        "source": "mvp.gold.vw_tendencia_temporal_risco",
+        "dimensions": [
+          {
+            "expr": "source.*"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "91a3662a",
+      "displayName": "vw_regional_per_capita",
+      "config": {
+        "version": "1.1",
+        "source": "mvp.gold.vw_regional_per_capita",
+        "dimensions": [
+          {
+            "expr": "source.*"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "b1320d10",
+      "displayName": "vw_balanca_inter_regional",
+      "config": {
+        "version": "1.1",
+        "source": "mvp.gold.vw_balanca_inter_regional",
+        "dimensions": [
+          {
+            "expr": "source.*"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "e2f55078",
+      "displayName": "vw_matriz_relacional_pfpj",
+      "config": {
+        "version": "1.1",
+        "source": "mvp.gold.vw_matriz_relacional_pfpj",
+        "dimensions": [
+          {
+            "expr": "source.*"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "fd87b8de",
+      "displayName": "vw_canal_vs_faixa_etaria",
+      "config": {
+        "version": "1.1",
+        "source": "mvp.gold.vw_canal_vs_faixa_etaria",
+        "dimensions": [
+          {
+            "expr": "source.*"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "78efa137",
+      "displayName": "vw_funil_med",
+      "config": {
+        "version": "1.1",
+        "source": "mvp.gold.vw_funil_med",
+        "dimensions": [
+          {
+            "expr": "source.*"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "bf3c787a",
+      "displayName": "vw_gargalos_devolucao_med",
+      "config": {
+        "version": "1.1",
+        "source": "mvp.gold.vw_gargalos_devolucao_med",
+        "dimensions": [
+          {
+            "expr": "source.*"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    }
+  ],
+  "pages": [
+    {
+      "name": "a4af4449",
+      "displayName": "Painel Executivo: Ecossistema Pix & Inteligência MED",
+      "layout": [
+        {
+          "widget": {
+            "name": "c0d1ee54",
+            "multilineTextboxSpec": {
+              "lines": [
+                "# 📊 Monitoramento Estratégico: Transações Pix & Eficácia do MED\n",
+                "\n",
+                "Painel analítico integrado ao Censo IBGE e dados abertos do Banco Central do Brasil."
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 12,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "mes-de-referencia",
+            "queries": [
+              {
+                "name": "dashboards/01f1b680c8b0138ca76cd9459b6afa9b/datasets/01f1b681664e105d8b437b1aa0365bb0_ano_mes_desc",
+                "query": {
+                  "datasetName": "02202147",
+                  "fields": [
+                    {
+                      "name": "ano_mes_desc",
+                      "expression": "`ano_mes_desc`"
+                    },
+                    {
+                      "name": "ano_mes_desc_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              },
+              {
+                "name": "dashboards/01f1b680c8b0138ca76cd9459b6afa9b/datasets/01f1b681b35113ebbbd30a5d391315ee_ano_mes_desc",
+                "query": {
+                  "datasetName": "adf6fb8a",
+                  "fields": [
+                    {
+                      "name": "ano_mes_desc",
+                      "expression": "`ano_mes_desc`"
+                    },
+                    {
+                      "name": "ano_mes_desc_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              },
+              {
+                "name": "dashboards/01f1b680c8b0138ca76cd9459b6afa9b/datasets/01f1b681ba9b13e4b0e6009dccf8ad45_ano_mes_desc",
+                "query": {
+                  "datasetName": "fd1d2b47",
+                  "fields": [
+                    {
+                      "name": "ano_mes_desc",
+                      "expression": "`ano_mes_desc`"
+                    },
+                    {
+                      "name": "ano_mes_desc_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "showTitle": true,
+                "title": {
+                  "value": "<span style=\"font-size: 18px;\">Mês de Referência</span>",
+                  "fields": []
+                }
+              },
+              "widgetType": "filter-multi-select",
+              "encodings": {
+                "fields": [
+                  {
+                    "fieldName": "ano_mes_desc",
+                    "queryName": "dashboards/01f1b680c8b0138ca76cd9459b6afa9b/datasets/01f1b681664e105d8b437b1aa0365bb0_ano_mes_desc"
+                  },
+                  {
+                    "fieldName": "ano_mes_desc",
+                    "queryName": "dashboards/01f1b680c8b0138ca76cd9459b6afa9b/datasets/01f1b681b35113ebbbd30a5d391315ee_ano_mes_desc"
+                  },
+                  {
+                    "fieldName": "ano_mes_desc",
+                    "queryName": "dashboards/01f1b680c8b0138ca76cd9459b6afa9b/datasets/01f1b681ba9b13e4b0e6009dccf8ad45_ano_mes_desc"
+                  }
+                ]
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 2,
+            "width": 12,
+            "height": 1
+          }
+        },
+        {
+          "widget": {
+            "name": "volume-financeiro-total",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "a52a6b1e",
+                  "fields": [
+                    {
+                      "name": "sum(variacao_montante_mom_pct)",
+                      "expression": "SUM(`variacao_montante_mom_pct`)"
+                    },
+                    {
+                      "name": "sum(montante_total_reais)",
+                      "expression": "SUM(`montante_total_reais`)"
+                    },
+                    {
+                      "name": "variacao_montante_mom_pct",
+                      "expression": "`variacao_montante_mom_pct`"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "frame": {
+                "showTitle": true,
+                "showDescription": false,
+                "title": {
+                  "value": "<span style=\"text-align:center;display:block\"><span style=\"font-size: 18px;\">Volume Financeiro Total</span></span>",
+                  "fields": []
+                }
+              },
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "sum(montante_total_reais)",
+                  "format": {
+                    "type": "number-plain",
+                    "abbreviation": "compact",
+                    "decimalPlaces": {
+                      "type": "max",
+                      "places": 2
+                    }
+                  }
+                },
+                "target": {
+                  "fieldName": "sum(variacao_montante_mom_pct)",
+                  "formatTemplate": "{{ variacao_montante_mom_pct }}% vs. mês anterior",
+                  "style": {
+                    "fontSize": 14,
+                    "rules": [
+                      {
+                        "condition": {
+                          "operand": {
+                            "type": "data-value",
+                            "value": "0"
+                          },
+                          "operator": ">"
+                        },
+                        "fontColor": "#16A34A"
+                      },
+                      {
+                        "condition": {
+                          "operand": {
+                            "type": "data-value",
+                            "value": "0"
+                          },
+                          "operator": "<"
+                        },
+                        "fontColor": "#DC2626"
+                      }
+                    ]
+                  },
+                  "format": {
+                    "type": "number-plain",
+                    "abbreviation": "compact",
+                    "decimalPlaces": {
+                      "type": "max",
+                      "places": 2
+                    },
+                    "hideGroupSeparator": false,
+                    "negativeSign": "standard"
+                  },
+                  "change": {
+                    "type": "numeric"
+                  }
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 5,
+            "width": 3,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "volume-de-operacoes",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "a52a6b1e",
+                  "fields": [
+                    {
+                      "name": "sum(variacao_transacoes_mom_pct)",
+                      "expression": "SUM(`variacao_transacoes_mom_pct`)"
+                    },
+                    {
+                      "name": "sum(total_transacoes)",
+                      "expression": "SUM(`total_transacoes`)"
+                    },
+                    {
+                      "name": "variacao_transacoes_mom_pct",
+                      "expression": "`variacao_transacoes_mom_pct`"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "frame": {
+                "showTitle": true,
+                "title": {
+                  "value": "<span style=\"text-align:center;display:block;\"><span style=\"font-size: 18px;\">Volume de Operações</span></span>",
+                  "fields": []
+                }
+              },
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "sum(total_transacoes)",
+                  "format": {
+                    "type": "number-currency",
+                    "currencyCode": "BRL",
+                    "abbreviation": "compact",
+                    "decimalPlaces": {
+                      "type": "max",
+                      "places": 2
+                    },
+                    "negativeSign": "accounting"
+                  },
+                  "style": {
+                    "fontSize": 48
+                  }
+                },
+                "target": {
+                  "fieldName": "sum(variacao_transacoes_mom_pct)",
+                  "change": {
+                    "type": "numeric"
+                  },
+                  "style": {
+                    "fontSize": 14,
+                    "rules": [
+                      {
+                        "condition": {
+                          "operand": {
+                            "type": "data-value",
+                            "value": "0"
+                          },
+                          "operator": ">="
+                        },
+                        "fontColor": "#15803D"
+                      },
+                      {
+                        "condition": {
+                          "operand": {
+                            "type": "data-value",
+                            "value": "0"
+                          },
+                          "operator": "<"
+                        },
+                        "fontColor": "#D97706"
+                      }
+                    ]
+                  },
+                  "formatTemplate": "{{ variacao_transacoes_mom_pct }}% vs. mês anterior",
+                  "format": {
+                    "type": "number-plain",
+                    "abbreviation": "compact",
+                    "decimalPlaces": {
+                      "type": "max",
+                      "places": 2
+                    }
+                  }
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 3,
+            "y": 5,
+            "width": 3,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "ticket-medio-geral",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "a52a6b1e",
+                  "fields": [
+                    {
+                      "name": "sum(ticket_medio_geral_reais)",
+                      "expression": "SUM(`ticket_medio_geral_reais`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "frame": {
+                "showTitle": true,
+                "title": {
+                  "value": "<span style=\"text-align:center;display:block;\"><span style=\"font-size: 18px;\">Ticket Médio Geral</span></span>",
+                  "fields": []
+                }
+              },
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "sum(ticket_medio_geral_reais)",
+                  "format": {
+                    "type": "number-currency",
+                    "currencyCode": "BRL",
+                    "abbreviation": "compact",
+                    "decimalPlaces": {
+                      "type": "max",
+                      "places": 2
+                    }
+                  },
+                  "style": {
+                    "fontSize": 48,
+                    "rules": [
+                      {
+                        "condition": {
+                          "operand": {
+                            "type": "data-value",
+                            "value": "300"
+                          },
+                          "operator": ">="
+                        },
+                        "fontColor": "#0369A1"
+                      },
+                      {
+                        "condition": {
+                          "operand": {
+                            "type": "data-value",
+                            "value": "600"
+                          },
+                          "operator": "<="
+                        },
+                        "fontColor": "#0369A1"
+                      },
+                      {
+                        "condition": {
+                          "operand": {
+                            "type": "data-value",
+                            "value": "600"
+                          },
+                          "operator": ">"
+                        },
+                        "fontColor": "#6D28D9"
+                      }
+                    ]
+                  }
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 6,
+            "y": 5,
+            "width": 3,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "taxa-de-contestacao",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "a52a6b1e",
+                  "fields": [
+                    {
+                      "name": "sum(taxa_contestacao_pct)",
+                      "expression": "SUM(`taxa_contestacao_pct`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "frame": {
+                "showTitle": true,
+                "title": {
+                  "value": "<span style=\"text-align:center;display:block\"><span style=\"font-size:18px\">Taxa de Contestação Pix (%)</span></span>",
+                  "fields": []
+                }
+              },
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "sum(taxa_contestacao_pct)",
+                  "format": {
+                    "type": "number-plain",
+                    "abbreviation": "compact",
+                    "decimalPlaces": {
+                      "type": "max",
+                      "places": 4
+                    },
+                    "negativeSign": "accounting"
+                  },
+                  "style": {
+                    "fontSize": 48,
+                    "rules": [
+                      {
+                        "condition": {
+                          "operand": {
+                            "type": "data-value",
+                            "value": "0.0250"
+                          },
+                          "operator": "<="
+                        },
+                        "fontColor": "#15803D"
+                      },
+                      {
+                        "condition": {
+                          "operand": {
+                            "type": "data-value",
+                            "value": "0.0251"
+                          },
+                          "operator": ">="
+                        },
+                        "fontColor": "#B45309"
+                      },
+                      {
+                        "condition": {
+                          "operand": {
+                            "type": "data-value",
+                            "value": "0.0500"
+                          },
+                          "operator": ">"
+                        },
+                        "fontColor": "#B91C1C"
+                      }
+                    ]
+                  }
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 9,
+            "y": 5,
+            "width": 3,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "evolucao-mensal-volume-financeiro-vs-taxas-risco-med",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "b1bc8fd7",
+                  "fields": [
+                    {
+                      "name": "ano_mes_desc",
+                      "expression": "`ano_mes_desc`"
+                    },
+                    {
+                      "name": "sum(montante_total_reais)",
+                      "expression": "SUM(`montante_total_reais`)"
+                    },
+                    {
+                      "name": "sum(taxa_contestacao_pct)",
+                      "expression": "SUM(`taxa_contestacao_pct`)"
+                    },
+                    {
+                      "name": "sum(taxa_efetiva_recuperacao_pct)",
+                      "expression": "SUM(`taxa_efetiva_recuperacao_pct`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "frame": {
+                "showTitle": true,
+                "title": {
+                  "value": "<span style=\"text-align:center;display:block;\"><span style=\"font-size: 18px;\">Evolução Mensal do Volume Financeiro vs. Taxas de Risco MED</span></span>",
+                  "fields": []
+                }
+              },
+              "version": 1,
+              "annotations": [
+                {
+                  "type": "horizontal-line",
+                  "encodings": {
+                    "label": {
+                      "value": "Apetite a Risco / Threshold (0,05%)"
+                    },
+                    "color": {
+                      "value": "#EF4444"
+                    },
+                    "y": {
+                      "dataValue": "0.05",
+                      "dataType": "INTEGER"
+                    }
+                  }
+                }
+              ],
+              "widgetType": "combo",
+              "encodings": {
+                "x": {
+                  "fieldName": "ano_mes_desc",
+                  "axis": {
+                    "title": "Data Competência"
+                  },
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "primary": {
+                    "fields": [
+                      {
+                        "fieldName": "sum(montante_total_reais)",
+                        "displayName": "Montante Total (R$)"
+                      }
+                    ]
+                  },
+                  "secondary": {
+                    "fields": [
+                      {
+                        "fieldName": "sum(taxa_contestacao_pct)",
+                        "displayName": "Taxa contestação (%)"
+                      },
+                      {
+                        "fieldName": "sum(taxa_efetiva_recuperacao_pct)",
+                        "displayName": "Taxa efetiva recuperação (%)"
+                      }
+                    ]
+                  },
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "format": {
+                    "type": "number-plain",
+                    "abbreviation": "compact",
+                    "decimalPlaces": {
+                      "type": "max",
+                      "places": 2
+                    }
+                  },
+                  "axis": {
+                    "title": "Montante Total (R$)"
+                  }
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 11,
+            "width": 12,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "455a2114",
+            "multilineTextboxSpec": {
+              "lines": [
+                "### 📈 1. Visão Executiva & Tendência Histórica\n",
+                "\n",
+                "*Acompanhamento dos principais indicadores de volume, liquidação e taxas de contestação.*"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 3,
+            "width": 12,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "07366e1f",
+            "multilineTextboxSpec": {
+              "lines": [
+                "### 📍 2. Panorama Regional & Demografia IBGE\n",
+                "\n",
+                "*Distribuição de liquidez inter-regional e intensidade de gasto per capita por macrorregião.*"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 19,
+            "width": 12,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "15464581",
+            "multilineTextboxSpec": {
+              "lines": [
+                "### 👥 3. Comportamento PF/PJ & Canais de Pagamento\n",
+                "\n",
+                "*Relações de pagamento (P2P, P2B, B2P, B2B) e maturidade digital por faixa etária.*"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 33,
+            "width": 12,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "ranking-per-capita",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "91a3662a",
+                  "fields": [
+                    {
+                      "name": "sum(populacao_recente)",
+                      "expression": "SUM(`populacao_recente`)"
+                    },
+                    {
+                      "name": "sum(share_nacional_pct)",
+                      "expression": "SUM(`share_nacional_pct`)"
+                    },
+                    {
+                      "name": "sum(transacoes_por_habitante)",
+                      "expression": "SUM(`transacoes_por_habitante`)"
+                    },
+                    {
+                      "name": "sum(gasto_per_capita_reais)",
+                      "expression": "SUM(`gasto_per_capita_reais`)"
+                    },
+                    {
+                      "name": "nome_regiao",
+                      "expression": "`nome_regiao`"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "frame": {
+                "showTitle": true,
+                "showDescription": true,
+                "title": {
+                  "value": "<span style=\"text-align:center;display:block\"><span style=\"font-size: 18px;\">Intensidade de Gasto Pix Per Capita por Região (IBGE)</span></span>",
+                  "fields": []
+                },
+                "description": {
+                  "value": "Valores normalizados pela base populacional IBGE.",
+                  "fields": []
+                }
+              },
+              "version": 3,
+              "annotations": [
+                {
+                  "type": "vertical-line",
+                  "encodings": {
+                    "type": "aggregate",
+                    "x": {
+                      "total": {
+                        "fn": "avg"
+                      }
+                    },
+                    "label": {
+                      "value": "Média Nacional Per Capita"
+                    },
+                    "color": {
+                      "value": "#64748B"
+                    }
+                  }
+                }
+              ],
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "sum(gasto_per_capita_reais)",
+                  "format": {
+                    "type": "number-plain",
+                    "abbreviation": "compact",
+                    "decimalPlaces": {
+                      "type": "max",
+                      "places": 2
+                    },
+                    "negativeSign": "accounting"
+                  },
+                  "displayName": "Gasto per capita (R$)",
+                  "scale": {
+                    "type": "quantitative",
+                    "reverse": false
+                  }
+                },
+                "y": {
+                  "fieldName": "nome_regiao",
+                  "displayName": "Região",
+                  "scale": {
+                    "type": "categorical",
+                    "sort": {
+                      "by": "x-reversed"
+                    }
+                  }
+                },
+                "extra": [
+                  {
+                    "fieldName": "sum(populacao_recente)",
+                    "displayName": "População (IBGE)"
+                  },
+                  {
+                    "fieldName": "sum(share_nacional_pct)",
+                    "displayName": "Participação no Total"
+                  },
+                  {
+                    "fieldName": "sum(transacoes_por_habitante)",
+                    "displayName": "Transações por Habitante"
+                  }
+                ]
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 21,
+            "width": 12,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "ranking-per-capita-1",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "b1320d10",
+                  "fields": [
+                    {
+                      "name": "classificacao_fluxo",
+                      "expression": "`classificacao_fluxo`"
+                    },
+                    {
+                      "name": "nome_regiao",
+                      "expression": "`nome_regiao`"
+                    },
+                    {
+                      "name": "sum(saldo_liquido_regional)",
+                      "expression": "SUM(`saldo_liquido_regional`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "frame": {
+                "showTitle": true,
+                "showDescription": true,
+                "title": {
+                  "value": "<span style=\"text-align:center;display:block\"><span style=\"font-size: 18px;\">Saldo Líquido Regional (Receptora vs. Emissora Líquida)</span></span>",
+                  "fields": []
+                },
+                "description": {
+                  "value": "Regiões acima de R$ 0 retêm capital; valores negativos exportam liquidez inter-regional.",
+                  "fields": []
+                }
+              },
+              "version": 3,
+              "annotations": [
+                {
+                  "type": "horizontal-line",
+                  "encodings": {
+                    "y": {
+                      "dataValue": "0",
+                      "dataType": "DECIMAL"
+                    },
+                    "label": {
+                      "value": "Equilíbrio Líquido (Marco Zero)"
+                    },
+                    "color": {
+                      "value": "#94A3B8"
+                    }
+                  }
+                }
+              ],
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "nome_regiao",
+                  "displayName": "Região",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "sum(saldo_liquido_regional)",
+                  "displayName": "Saldo Líquido (R$)",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "classificacao_fluxo",
+                  "displayName": "Fluxo Líquido",
+                  "scale": {
+                    "type": "categorical",
+                    "mappings": [
+                      {
+                        "value": "Emissora Líquida",
+                        "color": {
+                          "themeColorType": "visualizationColors",
+                          "position": 3
+                        }
+                      },
+                      {
+                        "value": "Receptora Líquida",
+                        "color": {
+                          "themeColorType": "visualizationColors",
+                          "position": 4
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 27,
+            "width": 12,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "concentracao-volume-financeiro-relacao-pagamento",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "e2f55078",
+                  "fields": [
+                    {
+                      "name": "sum(volume_financeiro_reais)",
+                      "expression": "SUM(`volume_financeiro_reais`)"
+                    },
+                    {
+                      "name": "categoria_fluxo",
+                      "expression": "`categoria_fluxo`"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "frame": {
+                "showTitle": true,
+                "showDescription": true,
+                "title": {
+                  "value": "<span style=\"text-align:center;display:block\"><span style=\"font-size: 18px;\">Concentração de Volume Financeiro por Relação de Pagamento</span></span>",
+                  "fields": []
+                },
+                "description": {
+                  "value": "Distribuição do volume transacionado entre Pessoas Físicas e Jurídicas (P2P, P2B, B2P e B2B).",
+                  "fields": []
+                }
+              },
+              "version": 3,
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "sum(volume_financeiro_reais)",
+                  "displayName": "Volume Financeiro (R$)",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "y": {
+                  "fieldName": "categoria_fluxo",
+                  "displayName": "Relação de Pagamento",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 35,
+            "width": 12,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "adocao-modalidades-iniciacao-faixa-etaria",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "fd87b8de",
+                  "fields": [
+                    {
+                      "name": "forma_iniciacao_desc",
+                      "expression": "`forma_iniciacao_desc`"
+                    },
+                    {
+                      "name": "faixa_etaria_pagador",
+                      "expression": "`faixa_etaria_pagador`"
+                    },
+                    {
+                      "name": "volume_financeiro_reais",
+                      "expression": "`volume_financeiro_reais`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "frame": {
+                "showTitle": true,
+                "showDescription": false,
+                "title": {
+                  "value": "<span style=\"text-align:center;display:block;\"><span style=\"font-size: 18px;\">Adoção de Modalidades de Iniciação por Faixa Etária</span></span>",
+                  "fields": []
+                }
+              },
+              "version": 3,
+              "mark": {
+                "layout": "percent-stack"
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "faixa_etaria_pagador",
+                  "displayName": "Faixa Etária",
+                  "scale": {
+                    "type": "categorical",
+                    "sort": {
+                      "by": "natural-order"
+                    }
+                  }
+                },
+                "y": {
+                  "fieldName": "volume_financeiro_reais",
+                  "format": {
+                    "type": "number-currency",
+                    "currencyCode": "BRL",
+                    "abbreviation": "compact",
+                    "decimalPlaces": {
+                      "type": "max",
+                      "places": 2
+                    },
+                    "negativeSign": "accounting"
+                  },
+                  "displayName": "Volume da Faixa (%)",
+                  "scale": {
+                    "type": "quantitative",
+                    "reverse": false,
+                    "domain": {
+                      "type": "per-facet"
+                    }
+                  }
+                },
+                "color": {
+                  "fieldName": "forma_iniciacao_desc",
+                  "displayName": "Forma Iniciação",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 41,
+            "width": 12,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "funil-resolucao-operacional-med",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "78efa137",
+                  "fields": [
+                    {
+                      "name": "sum(qtde_pix_contestados)",
+                      "expression": "SUM(`qtde_pix_contestados`)"
+                    },
+                    {
+                      "name": "sum(qtde_contestacoes_aceitas)",
+                      "expression": "SUM(`qtde_contestacoes_aceitas`)"
+                    },
+                    {
+                      "name": "sum(total_devolucoes_efetuadas)",
+                      "expression": "SUM(`total_devolucoes_efetuadas`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "frame": {
+                "showTitle": true,
+                "showDescription": true,
+                "title": {
+                  "value": "<span style=\"text-align:center;display:block;\"><span style=\"font-size: 18px;\">Funil de Resolução Operacional do MED</span></span>",
+                  "fields": []
+                },
+                "description": {
+                  "value": "Taxa Efetiva de Recuperação Financeira média registrada nos dados.",
+                  "fields": []
+                }
+              },
+              "version": 3,
+              "mark": {
+                "colors": [
+                  "#1E3A8A",
+                  "#EA580C",
+                  "#16A34A"
+                ],
+                "layout": "group"
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "y": {
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "fields": [
+                    {
+                      "fieldName": "sum(qtde_pix_contestados)",
+                      "displayName": "Contestações Abertas"
+                    },
+                    {
+                      "fieldName": "sum(qtde_contestacoes_aceitas)",
+                      "displayName": "Fraudes Deferidas"
+                    },
+                    {
+                      "fieldName": "sum(total_devolucoes_efetuadas)",
+                      "displayName": "Devoluções Concluídas"
+                    }
+                  ],
+                  "format": {
+                    "type": "number-plain",
+                    "abbreviation": "compact",
+                    "decimalPlaces": {
+                      "type": "max",
+                      "places": 2
+                    }
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 51,
+            "width": 6,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "causas-falha-devolucao-valores-fraudados",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "bf3c787a",
+                  "fields": [
+                    {
+                      "name": "ano_mes_desc",
+                      "expression": "`ano_mes_desc`"
+                    },
+                    {
+                      "name": "sum(impacto_saldo_insuficiente_pct)",
+                      "expression": "SUM(`impacto_saldo_insuficiente_pct`)"
+                    },
+                    {
+                      "name": "sum(impacto_conta_encerrada_pct)",
+                      "expression": "SUM(`impacto_conta_encerrada_pct`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "frame": {
+                "showTitle": true,
+                "title": {
+                  "value": "<span style=\"text-align:center;display:block;\"><span style=\"font-size: 18px;\">Causas de Falha na Devolução de Valores Fraudados</span></span>",
+                  "fields": []
+                }
+              },
+              "version": 3,
+              "annotations": [
+                {
+                  "type": "horizontal-line",
+                  "encodings": {
+                    "label": {
+                      "value": "Alerta Crítico de Evasão (80%)"
+                    },
+                    "color": {
+                      "value": "#EF4444"
+                    },
+                    "y": {
+                      "dataValue": "0.8",
+                      "dataType": "DECIMAL"
+                    }
+                  }
+                }
+              ],
+              "mark": {
+                "colors": [
+                  "#D97706",
+                  "#991B1B"
+                ],
+                "layout": "percent-stack"
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "ano_mes_desc",
+                  "displayName": "Mês de Referência",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "fields": [
+                    {
+                      "fieldName": "sum(impacto_saldo_insuficiente_pct)",
+                      "displayName": "Saldo Insuficiente (%)"
+                    },
+                    {
+                      "fieldName": "sum(impacto_conta_encerrada_pct)",
+                      "displayName": "Conta Encerrada / Inativa (%)"
+                    }
+                  ]
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 6,
+            "y": 51,
+            "width": 6,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "da52b573",
+            "multilineTextboxSpec": {
+              "lines": [
+                "> 🚨 <span style=\"color:#FCA5A5\">**Diagnóstico MED:**</span> <span style=\"color:#CBD5E1\">Mais de 80% do insucesso na recuperação decorre do esvaziamento imediato das contas laranjas antes da contestação, exigindo bloqueios automatizados em tempo real via API.</span>"
+              ]
+            },
+            "specExtensions": {
+              "widgetBackgroundColor": {
+                "dark": "#1E293B"
+              },
+              "widgetBorderColor": {
+                "dark": "#FECACA"
+              }
+            }
+          },
+          "position": {
+            "x": 6,
+            "y": 57,
+            "width": 6,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "52c7d043",
+            "multilineTextboxSpec": {
+              "lines": [
+                "> ⚠️ **Gargalo Operacional:** A retração entre a aprovação do laudo de fraude e o estorno realizado evidencia o tempo de evasão de capital pelo infrator."
+              ]
+            },
+            "specExtensions": {
+              "widgetBorderColor": {
+                "dark": "#EA580C"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 57,
+            "width": 6,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "06743092",
+            "multilineTextboxSpec": {
+              "lines": [
+                "> 📌 <span style=\"color:#38BDF8\">**Dinâmica de Liquidação:**</span> <span style=\"color:#CBD5E1\">A estabilidade das contestações frente ao avanço do volume reflete o impacto de regras preventivas em tempo real no SPI.</span>"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 17,
+            "width": 12,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "9d5bfb70",
+            "multilineTextboxSpec": {
+              "lines": [
+                "### 🛡️ 4. Inteligência de Risco & Eficácia do MED\n",
+                "\n",
+                "*Funil operacional de contestações, volume devolvido e causas de perda financeira.*"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 49,
+            "width": 12,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "a3c3051c",
+            "multilineTextboxSpec": {
+              "lines": [
+                "> 📌 **Insights de Adoção e Canais:**<br>\\* **Concentração Financeira:** O segmento B2B domina o montante liquidado em razão do ticket médio elevado, enquanto P2P e P2B sustentam o volume diário de liquidação.<br>\\* **Comportamento Geracional:** Nota-se migração expressiva para QR Code nas faixas até 39 anos, ao passo que públicos acima de 40 anos preservam forte preferência pela Chave Pix manual."
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 47,
+            "width": 12,
+            "height": 2
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_CANVAS",
+      "layoutVersion": "GRID_V1"
+    }
+  ],
+  "uiSettings": {
+    "theme": {
+      "canvasBackgroundColor": {
+        "light": "#FAFAFB",
+        "dark": "#0B0F19"
+      },
+      "widgetBackgroundColor": {
+        "light": "#FFFFFF",
+        "dark": "#1E293B"
+      },
+      "widgetBorderColor": {
+        "dark": "#334155"
+      },
+      "fontColor": {
+        "light": "#11171C",
+        "dark": "#E8ECF0"
+      },
+      "selectionColor": {
+        "light": "#2272B4",
+        "dark": "#8ACAFF"
+      },
+      "widgetHeaderAlignment": "LEFT",
+      "widgetCornerRadius": 12,
+      "fontSettings": {
+        "widgetTitle": {
+          "fontColor": {
+            "dark": "#F8FAFC"
+          }
+        },
+        "fieldTitle": {
+          "fontColor": {
+            "dark": "#94A3B8"
+          }
+        }
+      },
+      "gridLineColor": {
+        "dark": "#1E293B"
+      },
+      "axisLineColor": {
+        "dark": "#64748B"
+      },
+      "visualizationColorMappings": [
+        {
+          "value": "Sum of taxa_contestacao_pct",
+          "color": "#FFAB00"
+        },
+        {
+          "value": "Emissora Líquida",
+          "color": "#077A9D"
+        }
+      ]
+    },
+    "applyModeEnabled": false
+  }
+}

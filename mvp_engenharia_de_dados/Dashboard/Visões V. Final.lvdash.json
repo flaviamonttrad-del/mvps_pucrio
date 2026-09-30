@@ -1,0 +1,3304 @@
+{
+  "datasets": [
+    {
+      "name": "02202147",
+      "displayName": "vw_tendencia_temporal_risco",
+      "config": {
+        "version": "1.1",
+        "source": "mvp.mvp_queries.vw_tendencia_temporal_risco",
+        "dimensions": [
+          {
+            "expr": "source.*"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "adf6fb8a",
+      "displayName": "vw_funil_med",
+      "config": {
+        "version": "1.1",
+        "source": "mvp.mvp_queries.vw_funil_med",
+        "dimensions": [
+          {
+            "expr": "source.*"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "fd1d2b47",
+      "displayName": "vw_gargalos_devolucao_med",
+      "config": {
+        "version": "1.1",
+        "source": "mvp.mvp_queries.vw_gargalos_devolucao_med",
+        "dimensions": [
+          {
+            "expr": "source.*"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "a52a6b1e",
+      "displayName": "vw_kpi_topo",
+      "config": {
+        "version": "1.1",
+        "source": "mvp.gold.vw_kpi_topo",
+        "dimensions": [
+          {
+            "expr": "source.*"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "b1bc8fd7",
+      "displayName": "vw_tendencia_temporal_risco",
+      "config": {
+        "version": "1.1",
+        "source": "mvp.gold.vw_tendencia_temporal_risco",
+        "dimensions": [
+          {
+            "expr": "source.*"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "91a3662a",
+      "displayName": "vw_regional_per_capita",
+      "config": {
+        "version": "1.1",
+        "source": "mvp.gold.vw_regional_per_capita",
+        "dimensions": [
+          {
+            "expr": "source.*"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "b1320d10",
+      "displayName": "vw_balanca_inter_regional",
+      "config": {
+        "version": "1.1",
+        "source": "mvp.gold.vw_balanca_inter_regional",
+        "dimensions": [
+          {
+            "expr": "source.*"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "e2f55078",
+      "displayName": "vw_matriz_relacional_pfpj",
+      "config": {
+        "version": "1.1",
+        "source": "mvp.gold.vw_matriz_relacional_pfpj",
+        "dimensions": [
+          {
+            "expr": "source.*"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "fd87b8de",
+      "displayName": "vw_canal_vs_faixa_etaria",
+      "config": {
+        "version": "1.1",
+        "source": "mvp.gold.vw_canal_vs_faixa_etaria",
+        "dimensions": [
+          {
+            "expr": "source.*"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "78efa137",
+      "displayName": "vw_funil_med",
+      "config": {
+        "version": "1.1",
+        "source": "mvp.gold.vw_funil_med",
+        "dimensions": [
+          {
+            "expr": "source.*"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "bf3c787a",
+      "displayName": "vw_gargalos_devolucao_med",
+      "config": {
+        "version": "1.1",
+        "source": "mvp.gold.vw_gargalos_devolucao_med",
+        "dimensions": [
+          {
+            "expr": "source.*"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          }
+        ]
+      }
+    },
+    {
+      "name": "dea71155",
+      "displayName": "ds_transacoes_completo",
+      "queryLines": [
+        "WITH base_agrupada AS (\n",
+        "    SELECT \n",
+        "        -- 1. Chaves Temporais e Códigos\n",
+        "        f.sk_tempo,\n",
+        "        f.anomes                                     AS mes_ano,\n",
+        "        TO_DATE(CAST(f.anomes AS STRING), 'yyyyMM') AS data_referencia,\n",
+        "        f.sk_modalidade,\n",
+        "\n",
+        "        -- 2. Métricas Base\n",
+        "        SUM(f.montante_reais)                        AS valor_total_reais,\n",
+        "        SUM(f.quantidade_tx)                         AS total_transacoes\n",
+        "    FROM mvp.gold.fato_pix_transacoes f\n",
+        "    WHERE f.anomes IS NOT NULL\n",
+        "    GROUP BY \n",
+        "        f.sk_tempo,\n",
+        "        f.anomes,\n",
+        "        TO_DATE(CAST(f.anomes AS STRING), 'yyyyMM'),\n",
+        "        f.sk_modalidade\n",
+        "),\n",
+        "totais_por_mes AS (\n",
+        "    -- Totalizador mensal para permitir o cálculo do percentual / share do mês\n",
+        "    SELECT \n",
+        "        data_referencia,\n",
+        "        SUM(valor_total_reais) AS total_mes_valor\n",
+        "    FROM base_agrupada\n",
+        "    GROUP BY data_referencia\n",
+        ")\n",
+        "SELECT \n",
+        "    b.sk_tempo,\n",
+        "    b.mes_ano,\n",
+        "    b.data_referencia,\n",
+        "    b.sk_modalidade,\n",
+        "\n",
+        "    -- Métricas Financeiras (ambos os aliases para os KPIs de topo)\n",
+        "    b.valor_total_reais,\n",
+        "    b.valor_total_reais                          AS total_valor,\n",
+        "\n",
+        "    -- Métricas de Operações (ambos os aliases)\n",
+        "    b.total_transacoes,\n",
+        "    b.total_transacoes                           AS quantidade_transacoes,\n",
+        "\n",
+        "    -- Ticket Médio\n",
+        "    ROUND(\n",
+        "        b.valor_total_reais / NULLIF(b.total_transacoes, 0), \n",
+        "        2\n",
+        "    )                                            AS ticket_medio_valor,\n",
+        "\n",
+        "    -- COLUNA EXIGIDA PELO GRÁFICO 2.2: Participação decimal do mês (Share %)\n",
+        "    ROUND(\n",
+        "        CAST(b.valor_total_reais AS DOUBLE) / NULLIF(t.total_mes_valor, 0), \n",
+        "        4\n",
+        "    )                                            AS share_pct_mes_decimal,\n",
+        "\n",
+        "    -- Formatações Gold (para Tooltips e Rótulos)\n",
+        "    mvp.gold.fmt_pct_br(\n",
+        "        ROUND((CAST(b.valor_total_reais AS DOUBLE) / NULLIF(t.total_mes_valor, 0)) * 100.0, 2)\n",
+        "    )                                            AS share_pct_formatado,\n",
+        "    mvp.gold.fmt_inteiro_br(b.total_transacoes)  AS total_transacoes_formatado,\n",
+        "    mvp.gold.fmt_moeda_br(b.valor_total_reais)   AS total_valor_formatado,\n",
+        "    mvp.gold.fmt_moeda_br(\n",
+        "        ROUND(b.valor_total_reais / NULLIF(b.total_transacoes, 0), 2)\n",
+        "    )                                            AS ticket_medio_formatado\n",
+        "\n",
+        "FROM base_agrupada b\n",
+        "INNER JOIN totais_por_mes t \n",
+        "    ON b.data_referencia = t.data_referencia\n",
+        "ORDER BY \n",
+        "    b.data_referencia ASC,\n",
+        "    b.sk_tempo ASC;"
+      ]
+    },
+    {
+      "name": "4ae0703c",
+      "displayName": "ds_fraudes_med",
+      "queryLines": [
+        "WITH calendario AS (\n",
+        "    -- Extrai todos os meses/competências existentes na base para formar a malha contínua\n",
+        "    SELECT DISTINCT CAST(data_competencia AS DATE) AS data_competencia,\n",
+        "           CAST(sk_tempo AS INT) AS sk_tempo\n",
+        "    FROM mvp.gold.fato_pix_fraudes_med\n",
+        "    WHERE data_competencia IS NOT NULL\n",
+        "),\n",
+        "maior_data_valida AS (\n",
+        "    -- Para cada mês do calendário, encontra a data da última informação válida disponível até aquele momento (Forward Fill)\n",
+        "    SELECT \n",
+        "        c.data_competencia AS competencia_calendario,\n",
+        "        MAX(f.data_competencia) AS competencia_efetiva\n",
+        "    FROM calendario c\n",
+        "    LEFT JOIN mvp.gold.fato_pix_fraudes_med f ON f.data_competencia <= c.data_competencia\n",
+        "    GROUP BY c.data_competencia\n",
+        ")\n",
+        "SELECT \n",
+        "    COALESCE(f.sk_tempo, c.sk_tempo) AS sk_tempo,\n",
+        "    c.data_competencia AS data_efetiva,\n",
+        "    CAST(COALESCE(f.sk_tempo, c.sk_tempo) AS INT) AS ordem_mes_ano,\n",
+        "    \n",
+        "    -- Métricas protegidas contra nulos (trazendo o último valor válido propagado)\n",
+        "    COALESCE(f.qtde_pix_contestados, 0) AS qtde_pix_contestados,\n",
+        "    COALESCE(f.qtde_contestacoes_aceitas, 0) AS qtde_contestacoes_aceitas,\n",
+        "    COALESCE(f.qtde_devolucoes_integrais, 0) AS qtde_devolucoes_integrais,\n",
+        "    COALESCE(f.qtde_devolucoes_parciais, 0) AS qtde_devolucoes_parciais,\n",
+        "    COALESCE(f.valor_contestacoes_aceitas_reais, 0.0) AS valor_contestacoes_aceitas_reais,\n",
+        "    COALESCE(f.valor_devolvido_integral_reais, 0.0) AS valor_devolvido_integral_reais,\n",
+        "    COALESCE(f.valor_devolvido_parcial_reais, 0.0) AS valor_devolvido_parcial_reais,\n",
+        "    \n",
+        "    -- Soma total efetivamente devolvida\n",
+        "    (COALESCE(f.valor_devolvido_integral_reais, 0.0) + COALESCE(f.valor_devolvido_parcial_reais, 0.0)) AS valor_total_efetivo_devolvido,\n",
+        "    \n",
+        "    -- Cálculo da Taxa Efetiva do MED\n",
+        "    ROUND(\n",
+        "        ((COALESCE(f.valor_devolvido_integral_reais, 0.0) + COALESCE(f.valor_devolvido_parcial_reais, 0.0)) * 100.0) / \n",
+        "        NULLIF(COALESCE(f.valor_contestacoes_aceitas_reais, 0.0), 0), 2\n",
+        "    ) AS taxa_efetiva_med_calc,\n",
+        "    \n",
+        "    -- Mês e ano de referência original formatado para o painel\n",
+        "    DATE_FORMAT(f.data_competencia, 'MM/yyyy') AS `Mês e Ano de Referência Original`\n",
+        "FROM calendario c\n",
+        "JOIN maior_data_valida m ON c.data_competencia = m.competencia_calendario\n",
+        "LEFT JOIN mvp.gold.fato_pix_fraudes_med f ON f.data_competencia = m.competencia_efetiva\n",
+        "ORDER BY ordem_mes_ano ASC;"
+      ]
+    },
+    {
+      "name": "8d1b6038",
+      "displayName": "ds_kpi_dinamico",
+      "queryLines": [
+        "SELECT \n",
+        "    -- 1. Dimensão Temporal Padronizada para Filtro Global e Ordenação\n",
+        "    f.anomes AS mes_ano,\n",
+        "    \n",
+        "    -- Formatação Amigável (Ex: '03/2024')\n",
+        "    CONCAT(\n",
+        "        SUBSTRING(CAST(f.anomes AS STRING), 5, 2), \n",
+        "        '/', \n",
+        "        SUBSTRING(CAST(f.anomes AS STRING), 1, 4)\n",
+        "    ) AS mes_ano_desc,\n",
+        "    \n",
+        "    -- Coluna Numérica para ordenar o seletor cronologicamente (Ex: 202403)\n",
+        "    CAST(f.anomes AS INT) AS ordem_mes_ano,\n",
+        "    \n",
+        "    -- 2. Métricas Numéricas Puras (para gráficos e cálculos)\n",
+        "    SUM(f.montante_reais)                                              AS volume_total_reais,\n",
+        "    SUM(f.quantidade_tx)                                               AS total_transacoes,\n",
+        "    ROUND(SUM(f.montante_reais) / NULLIF(SUM(f.quantidade_tx), 0), 2) AS ticket_medio_nacional,\n",
+        "    \n",
+        "    -- 3. Métricas Formatadas no Padrão Brasileiro (UDFs da Camada Gold)\n",
+        "    mvp.gold.fmt_moeda_br(SUM(f.montante_reais))                       AS volume_total_formatado,\n",
+        "    mvp.gold.fmt_inteiro_br(SUM(f.quantidade_tx))                      AS total_transacoes_formatado,\n",
+        "    mvp.gold.fmt_moeda_br(\n",
+        "        ROUND(SUM(f.montante_reais) / NULLIF(SUM(f.quantidade_tx), 0), 2)\n",
+        "    )                                                                  AS ticket_medio_formatado\n",
+        "\n",
+        "FROM mvp.gold.fato_pix_transacoes f\n",
+        "GROUP BY \n",
+        "    f.anomes,\n",
+        "    CONCAT(\n",
+        "        SUBSTRING(CAST(f.anomes AS STRING), 5, 2), \n",
+        "        '/', \n",
+        "        SUBSTRING(CAST(f.anomes AS STRING), 1, 4)\n",
+        "    ),\n",
+        "    CAST(f.anomes AS INT);"
+      ]
+    },
+    {
+      "name": "f15ac756",
+      "displayName": "ds_tendencia_ajustada",
+      "queryLines": [
+        "SELECT \n",
+        "    data_competencia,\n",
+        "    ano_mes_desc,\n",
+        "    \n",
+        "    -- 1. Colunas brutas numéricas (para os gráficos do Canvas)\n",
+        "    volume_total_reais,\n",
+        "    total_transacoes,\n",
+        "    ticket_medio_nacional,\n",
+        "    variacao_mom_taxa,\n",
+        "\n",
+        "    -- 2. Colunas formatadas no padrão brasileiro (para tabelas e cartões)\n",
+        "    CONCAT(\n",
+        "        'R$ ', \n",
+        "        TRANSLATE(FORMAT_NUMBER(volume_total_reais, 2), ',.', '.,')\n",
+        "    ) AS volume_total_br,\n",
+        "    \n",
+        "    TRANSLATE(FORMAT_NUMBER(total_transacoes, 0), ',', '.') AS total_transacoes_br,\n",
+        "    \n",
+        "    CONCAT(\n",
+        "        'R$ ', \n",
+        "        TRANSLATE(FORMAT_NUMBER(ticket_medio_nacional, 2), ',.', '.,')\n",
+        "    ) AS ticket_medio_br,\n",
+        "\n",
+        "    -- Variação MoM em porcentagem com 2 casas e vírgula (+3,40%)\n",
+        "    CASE \n",
+        "        WHEN variacao_mom_taxa IS NULL THEN 'N/D'\n",
+        "        WHEN variacao_mom_taxa > 0 \n",
+        "            THEN CONCAT('+', TRANSLATE(FORMAT_NUMBER(variacao_mom_taxa * 100.0, 2), '.', ','), '%')\n",
+        "        ELSE CONCAT(TRANSLATE(FORMAT_NUMBER(variacao_mom_taxa * 100.0, 2), '.', ','), '%')\n",
+        "    END AS variacao_percentual_mom_br\n",
+        "\n",
+        "FROM (\n",
+        "    SELECT \n",
+        "        sk_tempo,\n",
+        "        ano_mes_desc,\n",
+        "        data_competencia,\n",
+        "        volume_total_reais,\n",
+        "        total_transacoes,\n",
+        "        ticket_medio_nacional,\n",
+        "        \n",
+        "        -- Taxa pura (ex: 0.0340)\n",
+        "        ROUND(\n",
+        "            (volume_total_reais - LAG(volume_total_reais) OVER (ORDER BY data_competencia ASC)) \n",
+        "            / NULLIF(LAG(volume_total_reais) OVER (ORDER BY data_competencia ASC), 0), \n",
+        "            4\n",
+        "        ) AS variacao_mom_taxa\n",
+        "    FROM (\n",
+        "        SELECT \n",
+        "            sk_tempo,\n",
+        "            ano_mes_desc,\n",
+        "            data_competencia,\n",
+        "            SUM(montante_total_reais) AS volume_total_reais,\n",
+        "            SUM(total_transacoes)     AS total_transacoes,\n",
+        "            ROUND(SUM(montante_total_reais) / NULLIF(SUM(total_transacoes), 0), 2) AS ticket_medio_nacional\n",
+        "        FROM mvp.gold.vw_analise_tendencia_temporal\n",
+        "        GROUP BY sk_tempo, ano_mes_desc, data_competencia\n",
+        "    )\n",
+        "    WHERE volume_total_reais > 0 \n",
+        "      AND ticket_medio_nacional IS NOT NULL\n",
+        ")\n",
+        "ORDER BY data_competencia ASC;"
+      ]
+    },
+    {
+      "name": "d580a62e",
+      "displayName": "Interregional Balance Data Overview Summary",
+      "queryLines": [
+        "DESCRIBE mvp.gold.vw_balanca_inter_regional;"
+      ]
+    },
+    {
+      "name": "1ccd0aef",
+      "displayName": "ds_grafico_secao_3",
+      "queryLines": [
+        "WITH base_agrupada AS (\n",
+        "    SELECT \n",
+        "        f.anomes                                       AS mes_ano,\n",
+        "        dmod.forma_iniciacao_desc                      AS modalidade_pix,\n",
+        "        \n",
+        "        -- Nomenclatura executiva concisa para o Eixo Y\n",
+        "        CASE \n",
+        "            WHEN LOWER(dmod.forma_iniciacao_desc) LIKE '%chave%' OR LOWER(dmod.forma_iniciacao_desc) LIKE '%dict%' \n",
+        "                THEN 'Chave Pix (DICT)'\n",
+        "            WHEN LOWER(dmod.forma_iniciacao_desc) LIKE '%manual%' \n",
+        "                THEN 'Dados Manuais'\n",
+        "            WHEN LOWER(dmod.forma_iniciacao_desc) LIKE '%estatico%' OR LOWER(dmod.forma_iniciacao_desc) LIKE '%estático%' \n",
+        "                THEN 'QR Code Estático'\n",
+        "            WHEN LOWER(dmod.forma_iniciacao_desc) LIKE '%dinamico%' OR LOWER(dmod.forma_iniciacao_desc) LIKE '%dinâmico%' \n",
+        "                THEN 'QR Code Dinâmico'\n",
+        "            WHEN LOWER(dmod.forma_iniciacao_desc) LIKE '%iniciador%' OR LOWER(dmod.forma_iniciacao_desc) LIKE '%itp%' \n",
+        "                THEN 'Iniciador de Pagamento (ITP)'\n",
+        "            ELSE TRIM(dmod.forma_iniciacao_desc)\n",
+        "        END AS modalidade_pix_curta,\n",
+        "        \n",
+        "        dmod.ordem_iniciacao                           AS ordem_exibicao,\n",
+        "        \n",
+        "        -- Código técnico puro do Bacen\n",
+        "        UPPER(TRIM(COALESCE(dmod.natureza, 'OUTROS'))) AS natureza_codigo,\n",
+        "        \n",
+        "        -- Junção de código técnico + significado entre parênteses\n",
+        "        CASE \n",
+        "            WHEN UPPER(TRIM(dmod.natureza)) = 'P2P' THEN 'P2P (PF para PF)'\n",
+        "            WHEN UPPER(TRIM(dmod.natureza)) = 'P2B' THEN 'P2B (PF para PJ)'\n",
+        "            WHEN UPPER(TRIM(dmod.natureza)) = 'B2B' THEN 'B2B (PJ para PJ)'\n",
+        "            WHEN UPPER(TRIM(dmod.natureza)) = 'B2P' THEN 'B2P (PJ para PF)'\n",
+        "            WHEN UPPER(TRIM(dmod.natureza)) = 'P2G' THEN 'P2G (PF para Gov)'\n",
+        "            WHEN UPPER(TRIM(dmod.natureza)) = 'B2G' THEN 'B2G (PJ para Gov)'\n",
+        "            WHEN UPPER(TRIM(dmod.natureza)) = 'G2P' THEN 'G2P (Gov para PF)'\n",
+        "            WHEN UPPER(TRIM(dmod.natureza)) = 'G2B' THEN 'G2B (Gov para PJ)'\n",
+        "            WHEN UPPER(TRIM(dmod.natureza)) = 'G2G' THEN 'G2G (Gov para Gov)'\n",
+        "            ELSE CONCAT(UPPER(TRIM(COALESCE(dmod.natureza, 'OUTROS'))), ' (Outros)')\n",
+        "        END AS natureza_operacao,\n",
+        "        \n",
+        "        -- Métricas brutas\n",
+        "        SUM(f.quantidade_tx)                           AS quantidade_transacoes,\n",
+        "        SUM(f.montante_reais)                          AS valor_total_reais\n",
+        "    FROM mvp.gold.fato_pix_transacoes f\n",
+        "    INNER JOIN mvp.gold.dim_modalidade_pix dmod \n",
+        "        ON f.sk_modalidade = dmod.sk_modalidade\n",
+        "    GROUP BY \n",
+        "        f.anomes,\n",
+        "        dmod.forma_iniciacao_desc,\n",
+        "        CASE \n",
+        "            WHEN LOWER(dmod.forma_iniciacao_desc) LIKE '%chave%' OR LOWER(dmod.forma_iniciacao_desc) LIKE '%dict%' \n",
+        "                THEN 'Chave Pix (DICT)'\n",
+        "            WHEN LOWER(dmod.forma_iniciacao_desc) LIKE '%manual%' \n",
+        "                THEN 'Dados Manuais'\n",
+        "            WHEN LOWER(dmod.forma_iniciacao_desc) LIKE '%estatico%' OR LOWER(dmod.forma_iniciacao_desc) LIKE '%estático%' \n",
+        "                THEN 'QR Code Estático'\n",
+        "            WHEN LOWER(dmod.forma_iniciacao_desc) LIKE '%dinamico%' OR LOWER(dmod.forma_iniciacao_desc) LIKE '%dinâmico%' \n",
+        "                THEN 'QR Code Dinâmico'\n",
+        "            WHEN LOWER(dmod.forma_iniciacao_desc) LIKE '%iniciador%' OR LOWER(dmod.forma_iniciacao_desc) LIKE '%itp%' \n",
+        "                THEN 'Iniciador de Pagamento (ITP)'\n",
+        "            ELSE TRIM(dmod.forma_iniciacao_desc)\n",
+        "        END,\n",
+        "        dmod.ordem_iniciacao,\n",
+        "        UPPER(TRIM(COALESCE(dmod.natureza, 'OUTROS'))),\n",
+        "        CASE \n",
+        "            WHEN UPPER(TRIM(dmod.natureza)) = 'P2P' THEN 'P2P (PF para PF)'\n",
+        "            WHEN UPPER(TRIM(dmod.natureza)) = 'P2B' THEN 'P2B (PF para PJ)'\n",
+        "            WHEN UPPER(TRIM(dmod.natureza)) = 'B2B' THEN 'B2B (PJ para PJ)'\n",
+        "            WHEN UPPER(TRIM(dmod.natureza)) = 'B2P' THEN 'B2P (PJ para PF)'\n",
+        "            WHEN UPPER(TRIM(dmod.natureza)) = 'P2G' THEN 'P2G (PF para Gov)'\n",
+        "            WHEN UPPER(TRIM(dmod.natureza)) = 'B2G' THEN 'B2G (PJ para Gov)'\n",
+        "            WHEN UPPER(TRIM(dmod.natureza)) = 'G2P' THEN 'G2P (Gov para PF)'\n",
+        "            WHEN UPPER(TRIM(dmod.natureza)) = 'G2B' THEN 'G2B (Gov para PJ)'\n",
+        "            WHEN UPPER(TRIM(dmod.natureza)) = 'G2G' THEN 'G2G (Gov para Gov)'\n",
+        "            ELSE CONCAT(UPPER(TRIM(COALESCE(dmod.natureza, 'OUTROS'))), ' (Outros)')\n",
+        "        END\n",
+        "),\n",
+        "totais_natureza AS (\n",
+        "    -- Percentual total consolidado por natureza no período (evitando divisão inteira)\n",
+        "    SELECT \n",
+        "        mes_ano,\n",
+        "        natureza_codigo,\n",
+        "        SUM(quantidade_transacoes) AS total_qtd_natureza,\n",
+        "        (SUM(CAST(quantidade_transacoes AS DOUBLE)) / \n",
+        "         SUM(SUM(CAST(quantidade_transacoes AS DOUBLE))) OVER (PARTITION BY mes_ano)) * 100.0 AS pct_natureza_num\n",
+        "    FROM base_agrupada\n",
+        "    GROUP BY mes_ano, natureza_codigo\n",
+        ")\n",
+        "SELECT \n",
+        "    b.mes_ano,\n",
+        "    b.modalidade_pix,\n",
+        "    b.modalidade_pix_curta,\n",
+        "    b.ordem_exibicao,\n",
+        "    b.natureza_codigo,\n",
+        "    b.natureza_operacao,\n",
+        "\n",
+        "    -- Métricas Numéricas para os Gráficos 3.1 e 3.2\n",
+        "    b.quantidade_transacoes,\n",
+        "    b.valor_total_reais,\n",
+        "    t.pct_natureza_num,\n",
+        "\n",
+        "    -- Ticket Médio Ponderado Exato (R$/operação)\n",
+        "    ROUND(\n",
+        "        CAST(b.valor_total_reais AS DOUBLE) / NULLIF(b.quantidade_transacoes, 0), \n",
+        "        2\n",
+        "    ) AS ticket_medio_valor,\n",
+        "\n",
+        "    -- Rótulo consolidado com percentual\n",
+        "    CONCAT(\n",
+        "        b.natureza_operacao,\n",
+        "        ' — ',\n",
+        "        TRANSLATE(FORMAT_NUMBER(t.pct_natureza_num, 2), '.', ','),\n",
+        "        '%'\n",
+        "    ) AS label_natureza_executiva_pct,\n",
+        "\n",
+        "    -- Campos Formatados em pt-BR (para Tooltips)\n",
+        "    CONCAT(TRANSLATE(FORMAT_NUMBER(t.pct_natureza_num, 2), '.', ','), '%') AS pct_natureza_br,\n",
+        "    mvp.gold.fmt_moeda_br(\n",
+        "        ROUND(CAST(b.valor_total_reais AS DOUBLE) / NULLIF(b.quantidade_transacoes, 0), 2)\n",
+        "    ) AS ticket_medio_formatado,\n",
+        "    mvp.gold.fmt_moeda_br(b.valor_total_reais)                              AS valor_total_formatado,\n",
+        "    mvp.gold.fmt_inteiro_br(b.quantidade_transacoes)                        AS quantidade_formatada\n",
+        "\n",
+        "FROM base_agrupada b\n",
+        "INNER JOIN totais_natureza t\n",
+        "    ON b.mes_ano = t.mes_ano \n",
+        "   AND b.natureza_codigo = t.natureza_codigo\n",
+        "ORDER BY t.pct_natureza_num DESC, b.ordem_exibicao ASC;"
+      ]
+    },
+    {
+      "name": "78ffaebf",
+      "displayName": "ds_perfil_relacionamento_completo",
+      "queryLines": [
+        "WITH base_bruta AS (\n",
+        "    SELECT \n",
+        "        -- 1. Tratamento seguro do campo de data/mês\n",
+        "        f.anomes AS mes_ano,\n",
+        "        TO_DATE(CAST(f.anomes AS STRING), 'yyyyMM') AS data_referencia,\n",
+        "        \n",
+        "        UPPER(TRIM(COALESCE(dmod.natureza, 'OUTROS'))) AS natureza_codigo,\n",
+        "        \n",
+        "        CASE \n",
+        "            WHEN UPPER(TRIM(dmod.natureza)) = 'P2P' THEN 'P2P (PF para PF)'\n",
+        "            WHEN UPPER(TRIM(dmod.natureza)) = 'P2B' THEN 'P2B (PF para PJ)'\n",
+        "            WHEN UPPER(TRIM(dmod.natureza)) = 'B2B' THEN 'B2B (PJ para PJ)'\n",
+        "            ELSE 'Operações de Governo / Outros'\n",
+        "        END AS perfil_relacionamento,\n",
+        "\n",
+        "        CASE \n",
+        "            WHEN UPPER(TRIM(dmod.natureza)) IN ('P2P', 'P2B', 'B2B') THEN UPPER(TRIM(dmod.natureza))\n",
+        "            ELSE 'GOV_OUTROS'\n",
+        "        END AS classe_agrupamento,\n",
+        "\n",
+        "        CASE \n",
+        "            WHEN UPPER(TRIM(dmod.natureza)) = 'P2P' THEN 1\n",
+        "            WHEN UPPER(TRIM(dmod.natureza)) = 'P2B' THEN 2\n",
+        "            WHEN UPPER(TRIM(dmod.natureza)) = 'B2B' THEN 3\n",
+        "            ELSE 4\n",
+        "        END AS ordem_relacao,\n",
+        "\n",
+        "        COALESCE(f.quantidade_tx, 0)   AS quantidade_tx,\n",
+        "        COALESCE(f.montante_reais, 0.0) AS montante_reais\n",
+        "\n",
+        "    FROM mvp.gold.fato_pix_transacoes f\n",
+        "    INNER JOIN mvp.gold.dim_modalidade_pix dmod \n",
+        "        ON f.sk_modalidade = dmod.sk_modalidade\n",
+        "    WHERE f.anomes IS NOT NULL\n",
+        "),\n",
+        "resumo_perfil AS (\n",
+        "    SELECT \n",
+        "        b.data_referencia,\n",
+        "        b.mes_ano,\n",
+        "        b.ordem_relacao,\n",
+        "        b.classe_agrupamento,\n",
+        "        b.perfil_relacionamento,\n",
+        "        SUM(b.quantidade_tx)                           AS quantidade_transacoes,\n",
+        "        SUM(b.montante_reais)                          AS montante_liquidado_reais\n",
+        "    FROM base_bruta b\n",
+        "    GROUP BY \n",
+        "        b.data_referencia,\n",
+        "        b.mes_ano,\n",
+        "        b.ordem_relacao,\n",
+        "        b.classe_agrupamento,\n",
+        "        b.perfil_relacionamento\n",
+        "),\n",
+        "totais_periodo AS (\n",
+        "    SELECT \n",
+        "        data_referencia,\n",
+        "        mes_ano,\n",
+        "        SUM(CAST(quantidade_transacoes AS DOUBLE))    AS total_periodo_qtd,\n",
+        "        SUM(CAST(montante_liquidado_reais AS DOUBLE)) AS total_periodo_valor,\n",
+        "        \n",
+        "        -- Tickets médios pivotados para os Cards de KPI (R$)\n",
+        "        ROUND(\n",
+        "            SUM(CASE WHEN classe_agrupamento = 'B2B' THEN CAST(montante_liquidado_reais AS DOUBLE) ELSE 0.0 END) /\n",
+        "            NULLIF(SUM(CASE WHEN classe_agrupamento = 'B2B' THEN CAST(quantidade_transacoes AS DOUBLE) ELSE 0.0 END), 0),\n",
+        "            2\n",
+        "        ) AS ticket_medio_b2b,\n",
+        "        ROUND(\n",
+        "            SUM(CASE WHEN classe_agrupamento = 'P2B' THEN CAST(montante_liquidado_reais AS DOUBLE) ELSE 0.0 END) /\n",
+        "            NULLIF(SUM(CASE WHEN classe_agrupamento = 'P2B' THEN CAST(quantidade_transacoes AS DOUBLE) ELSE 0.0 END), 0),\n",
+        "            2\n",
+        "        ) AS ticket_medio_p2b,\n",
+        "        ROUND(\n",
+        "            SUM(CASE WHEN classe_agrupamento = 'P2P' THEN CAST(montante_liquidado_reais AS DOUBLE) ELSE 0.0 END) /\n",
+        "            NULLIF(SUM(CASE WHEN classe_agrupamento = 'P2P' THEN CAST(quantidade_transacoes AS DOUBLE) ELSE 0.0 END), 0),\n",
+        "            2\n",
+        "        ) AS ticket_medio_p2p,\n",
+        "\n",
+        "        -- % em Quantidade (Volume de Operações)\n",
+        "        ROUND(\n",
+        "            (SUM(CASE WHEN classe_agrupamento = 'P2P' THEN CAST(quantidade_transacoes AS DOUBLE) ELSE 0.0 END) / \n",
+        "             NULLIF(SUM(CAST(quantidade_transacoes AS DOUBLE)), 0)) * 100.0, \n",
+        "            1\n",
+        "        ) AS pct_p2p_qtd_kpi,\n",
+        "        ROUND(\n",
+        "            (SUM(CASE WHEN classe_agrupamento = 'P2B' THEN CAST(quantidade_transacoes AS DOUBLE) ELSE 0.0 END) / \n",
+        "             NULLIF(SUM(CAST(quantidade_transacoes AS DOUBLE)), 0)) * 100.0, \n",
+        "            1\n",
+        "        ) AS pct_p2b_qtd_kpi,\n",
+        "        ROUND(\n",
+        "            (SUM(CASE WHEN classe_agrupamento = 'B2B' THEN CAST(quantidade_transacoes AS DOUBLE) ELSE 0.0 END) / \n",
+        "             NULLIF(SUM(CAST(quantidade_transacoes AS DOUBLE)), 0)) * 100.0, \n",
+        "            1\n",
+        "        ) AS pct_b2b_qtd_kpi,\n",
+        "\n",
+        "        -- % em Valor (Massa Financeira)\n",
+        "        ROUND(\n",
+        "            (SUM(CASE WHEN classe_agrupamento = 'P2P' THEN CAST(montante_liquidado_reais AS DOUBLE) ELSE 0.0 END) / \n",
+        "             NULLIF(SUM(CAST(montante_liquidado_reais AS DOUBLE)), 0)) * 100.0, \n",
+        "            1\n",
+        "        ) AS pct_p2p_valor_kpi,\n",
+        "        ROUND(\n",
+        "            (SUM(CASE WHEN classe_agrupamento = 'P2B' THEN CAST(montante_liquidado_reais AS DOUBLE) ELSE 0.0 END) / \n",
+        "             NULLIF(SUM(CAST(montante_liquidado_reais AS DOUBLE)), 0)) * 100.0, \n",
+        "            1\n",
+        "        ) AS pct_p2b_valor_kpi,\n",
+        "        ROUND(\n",
+        "            (SUM(CASE WHEN classe_agrupamento = 'B2B' THEN CAST(montante_liquidado_reais AS DOUBLE) ELSE 0.0 END) / \n",
+        "             NULLIF(SUM(CAST(montante_liquidado_reais AS DOUBLE)), 0)) * 100.0, \n",
+        "            1\n",
+        "        ) AS pct_b2b_valor_kpi\n",
+        "    FROM resumo_perfil\n",
+        "    GROUP BY \n",
+        "        data_referencia,\n",
+        "        mes_ano\n",
+        ")\n",
+        "SELECT \n",
+        "    -- Chaves temporais\n",
+        "    r.data_referencia,\n",
+        "    r.mes_ano,\n",
+        "    r.ordem_relacao,\n",
+        "    r.classe_agrupamento,\n",
+        "    r.perfil_relacionamento,\n",
+        "    \n",
+        "    -- Cores Semânticas\n",
+        "    CASE \n",
+        "        WHEN r.classe_agrupamento = 'B2B' THEN '#E65100'\n",
+        "        WHEN r.classe_agrupamento = 'P2B' THEN '#0E8A16'\n",
+        "        WHEN r.classe_agrupamento = 'P2P' THEN '#1F4E79'\n",
+        "        ELSE '#94A3B8'\n",
+        "    END AS cor_destaque_hex,\n",
+        "\n",
+        "    -- Métricas Gerais\n",
+        "    r.quantidade_transacoes,\n",
+        "    r.montante_liquidado_reais,\n",
+        "    ROUND(\n",
+        "        CAST(r.montante_liquidado_reais AS DOUBLE) / NULLIF(r.quantidade_transacoes, 0), \n",
+        "        2\n",
+        "    ) AS ticket_medio_valor,\n",
+        "\n",
+        "    -- Colunas para os Cards de KPI\n",
+        "    t.ticket_medio_b2b,\n",
+        "    t.ticket_medio_p2b,\n",
+        "    t.ticket_medio_p2p,\n",
+        "    \n",
+        "    mvp.gold.fmt_moeda_br(t.ticket_medio_b2b) AS ticket_medio_b2b_formatado,\n",
+        "    mvp.gold.fmt_moeda_br(t.ticket_medio_p2b) AS ticket_medio_p2b_formatado,\n",
+        "    mvp.gold.fmt_moeda_br(t.ticket_medio_p2p) AS ticket_medio_p2p_formatado,\n",
+        "\n",
+        "    CONCAT(TRANSLATE(FORMAT_NUMBER(t.pct_b2b_valor_kpi, 1), '.', ','), '% do Montante Financeiro') AS subtitulo_card_b2b,\n",
+        "    CONCAT(TRANSLATE(FORMAT_NUMBER(t.pct_p2b_qtd_kpi, 1), '.', ','), '% do Volume de Transações') AS subtitulo_card_p2b,\n",
+        "    CONCAT(TRANSLATE(FORMAT_NUMBER(t.pct_p2p_qtd_kpi, 1), '.', ','), '% do Volume de Transações') AS subtitulo_card_p2p,\n",
+        "\n",
+        "    -- Formatações para Tooltips e Gráficos\n",
+        "    mvp.gold.fmt_moeda_br(\n",
+        "        ROUND(CAST(r.montante_liquidado_reais AS DOUBLE) / NULLIF(r.quantidade_transacoes, 0), 2)\n",
+        "    ) AS ticket_medio_formatado,\n",
+        "    mvp.gold.fmt_moeda_br(r.montante_liquidado_reais) AS montante_liquidado_formatado,\n",
+        "    mvp.gold.fmt_inteiro_br(r.quantidade_transacoes) AS quantidade_formatada,\n",
+        "    CONCAT(TRANSLATE(FORMAT_NUMBER((CAST(r.quantidade_transacoes AS DOUBLE) / NULLIF(t.total_periodo_qtd, 0)) * 100.0, 1), '.', ','), '%') AS pct_quantidade_formatado,\n",
+        "    CONCAT(TRANSLATE(FORMAT_NUMBER((CAST(r.montante_liquidado_reais AS DOUBLE) / NULLIF(t.total_periodo_valor, 0)) * 100.0, 1), '.', ','), '%') AS pct_montante_formatado\n",
+        "\n",
+        "FROM resumo_perfil r\n",
+        "INNER JOIN totais_periodo t \n",
+        "    ON r.data_referencia = t.data_referencia \n",
+        "   AND r.mes_ano = t.mes_ano\n",
+        "ORDER BY \n",
+        "    r.data_referencia ASC,\n",
+        "    r.ordem_relacao ASC;"
+      ]
+    },
+    {
+      "name": "18897e75",
+      "displayName": "ds_balanca_grafico",
+      "queryLines": [
+        "WITH transacoes_com_regiao AS (\n",
+        "    SELECT \n",
+        "        f.anomes AS mes_ano,\n",
+        "        \n",
+        "        -- Coluna ajustada para nome_regiao\n",
+        "        r_origem.nome_regiao  AS regiao_pagador,\n",
+        "        r_destino.nome_regiao AS regiao_recebedor,\n",
+        "        \n",
+        "        f.montante_reais\n",
+        "    FROM mvp.gold.fato_pix_transacoes f\n",
+        "    INNER JOIN mvp.gold.dim_regiao r_origem \n",
+        "        ON f.sk_regiao_pagador = r_origem.sk_regiao\n",
+        "    INNER JOIN mvp.gold.dim_regiao r_destino \n",
+        "        ON f.sk_regiao_recebedor = r_destino.sk_regiao\n",
+        "),\n",
+        "saidas_por_regiao AS (\n",
+        "    SELECT \n",
+        "        mes_ano,\n",
+        "        regiao_pagador AS nome_regiao,\n",
+        "        SUM(montante_reais) AS montante_enviado\n",
+        "    FROM transacoes_com_regiao\n",
+        "    GROUP BY mes_ano, regiao_pagador\n",
+        "),\n",
+        "entradas_por_regiao AS (\n",
+        "    SELECT \n",
+        "        mes_ano,\n",
+        "        regiao_recebedor AS nome_regiao,\n",
+        "        SUM(montante_reais) AS montante_recebido\n",
+        "    FROM transacoes_com_regiao\n",
+        "    GROUP BY mes_ano, regiao_recebedor\n",
+        "),\n",
+        "balanca_consolidada AS (\n",
+        "    SELECT \n",
+        "        COALESCE(e.mes_ano, s.mes_ano)         AS mes_ano,\n",
+        "        COALESCE(e.nome_regiao, s.nome_regiao) AS nome_regiao,\n",
+        "        COALESCE(e.montante_recebido, 0.0)     AS montante_recebido,\n",
+        "        COALESCE(s.montante_enviado, 0.0)      AS montante_enviado,\n",
+        "        (COALESCE(e.montante_recebido, 0.0) - COALESCE(s.montante_enviado, 0.0)) AS saldo_liquido_regional\n",
+        "    FROM entradas_por_regiao e\n",
+        "    FULL OUTER JOIN saidas_por_regiao s\n",
+        "        ON e.mes_ano = s.mes_ano \n",
+        "       AND e.nome_regiao = s.nome_regiao\n",
+        ")\n",
+        "SELECT \n",
+        "    b.mes_ano,\n",
+        "    b.nome_regiao,\n",
+        "    \n",
+        "    -- 1. Métricas Numéricas para Eixos de Gráficos e Cards\n",
+        "    b.saldo_liquido_regional,\n",
+        "    b.montante_recebido,\n",
+        "    b.montante_enviado,\n",
+        "    \n",
+        "    -- Saldo total do mês selecionado (para o Card de Saldo Único)\n",
+        "    SUM(b.saldo_liquido_regional) OVER (PARTITION BY b.mes_ano) AS saldo_total_periodo,\n",
+        "\n",
+        "    -- 2. Classificação Semântica\n",
+        "    CASE \n",
+        "        WHEN b.saldo_liquido_regional > 0 THEN 'Receptora Líquida'\n",
+        "        WHEN b.saldo_liquido_regional < 0 THEN 'Emissora Líquida'\n",
+        "        ELSE 'Equilibrada'\n",
+        "    END AS perfil_fluxo_final,\n",
+        "\n",
+        "    -- 3. Código Hex de Cores\n",
+        "    CASE \n",
+        "        WHEN b.saldo_liquido_regional > 0 THEN '#0E8A16' -- Verde (Superávit de Liquidez)\n",
+        "        WHEN b.saldo_liquido_regional < 0 THEN '#D9534F' -- Vermelho/Coral (Déficit de Liquidez)\n",
+        "        ELSE '#94A3B8'                                  -- Cinza Neutro\n",
+        "    END AS cor_saldo_hex,\n",
+        "\n",
+        "    -- 4. Rótulos Formatados Simplificados (para Data Labels)\n",
+        "    CASE \n",
+        "        WHEN ABS(b.saldo_liquido_regional) >= 1000000000 THEN \n",
+        "            CONCAT(IF(b.saldo_liquido_regional < 0, '-R$ ', 'R$ '), TRANSLATE(FORMAT_NUMBER(ABS(b.saldo_liquido_regional) / 1000000000.0, 2), '.', ','), ' Bi')\n",
+        "        WHEN ABS(b.saldo_liquido_regional) >= 1000000 THEN \n",
+        "            CONCAT(IF(b.saldo_liquido_regional < 0, '-R$ ', 'R$ '), TRANSLATE(FORMAT_NUMBER(ABS(b.saldo_liquido_regional) / 1000000.0, 2), '.', ','), ' Mi')\n",
+        "        ELSE \n",
+        "            CONCAT(IF(b.saldo_liquido_regional < 0, '-R$ ', 'R$ '), TRANSLATE(FORMAT_NUMBER(ABS(b.saldo_liquido_regional), 2), '.', ','))\n",
+        "    END AS saldo_liquido_simplificado,\n",
+        "\n",
+        "    CASE \n",
+        "        WHEN ABS(b.montante_enviado) >= 1000000000 THEN CONCAT('R$ ', TRANSLATE(FORMAT_NUMBER(b.montante_enviado / 1000000000.0, 2), '.', ','), ' Bi')\n",
+        "        WHEN ABS(b.montante_enviado) >= 1000000 THEN CONCAT('R$ ', TRANSLATE(FORMAT_NUMBER(b.montante_enviado / 1000000.0, 2), '.', ','), ' Mi')\n",
+        "        ELSE CONCAT('R$ ', TRANSLATE(FORMAT_NUMBER(b.montante_enviado, 2), '.', ','))\n",
+        "    END AS total_enviado_simplificado,\n",
+        "\n",
+        "    CASE \n",
+        "        WHEN ABS(b.montante_recebido) >= 1000000000 THEN CONCAT('R$ ', TRANSLATE(FORMAT_NUMBER(b.montante_recebido / 1000000000.0, 2), '.', ','), ' Bi')\n",
+        "        WHEN ABS(b.montante_recebido) >= 1000000 THEN CONCAT('R$ ', TRANSLATE(FORMAT_NUMBER(b.montante_recebido / 1000000.0, 2), '.', ','), ' Mi')\n",
+        "        ELSE CONCAT('R$ ', TRANSLATE(FORMAT_NUMBER(b.montante_recebido, 2), '.', ','))\n",
+        "    END AS total_recebido_simplificado,\n",
+        "\n",
+        "    -- 5. Textos Formatados em Moeda Extensa (UDF Gold) para Tooltips\n",
+        "    mvp.gold.fmt_moeda_br(b.saldo_liquido_regional) AS saldo_liquido_extenso,\n",
+        "    mvp.gold.fmt_moeda_br(b.montante_recebido)       AS montante_recebido_extenso,\n",
+        "    mvp.gold.fmt_moeda_br(b.montante_enviado)        AS montante_enviado_extenso,\n",
+        "    mvp.gold.fmt_moeda_br(SUM(b.saldo_liquido_regional) OVER (PARTITION BY b.mes_ano)) AS saldo_total_formatado\n",
+        "\n",
+        "FROM balanca_consolidada b\n",
+        "ORDER BY b.mes_ano DESC, b.saldo_liquido_regional DESC;"
+      ]
+    },
+    {
+      "name": "e8a47078",
+      "displayName": "ds_funil_med",
+      "queryLines": [
+        "WITH base_agregada AS (\n",
+        "    SELECT \n",
+        "        SUM(CAST(qtde_pix_contestados AS DOUBLE)) AS contestadas,\n",
+        "        SUM(CAST(qtde_contestacoes_aceitas AS DOUBLE)) AS aceitas,\n",
+        "        SUM(CAST(COALESCE(qtde_devolucoes_integrais, 0) + COALESCE(qtde_devolucoes_parciais, 0) AS DOUBLE)) AS devolvidas,\n",
+        "        SUM(CAST(COALESCE(valor_contestacoes_aceitas_reais, 0) AS DOUBLE)) AS valor_aceito,\n",
+        "        SUM(CAST(COALESCE(valor_devolvido_integral_reais, 0) + COALESCE(valor_devolvido_parcial_reais, 0) AS DOUBLE)) AS valor_devolvido\n",
+        "    FROM mvp.gold.fato_pix_fraudes_med\n",
+        "),\n",
+        "calculos AS (\n",
+        "    SELECT \n",
+        "        contestadas,\n",
+        "        aceitas,\n",
+        "        devolvidas,\n",
+        "        -- Estimativa segura para evitar divisão por zero ou tipos incompatíveis\n",
+        "        COALESCE(valor_aceito * (contestadas / NULLIF(aceitas, 0)), valor_aceito) AS valor_total_contestado_estimado,\n",
+        "        valor_aceito,\n",
+        "        valor_devolvido\n",
+        "    FROM base_agregada\n",
+        "),\n",
+        "etapas_unstack AS (\n",
+        "    SELECT \n",
+        "        1 AS ordem_etapa, \n",
+        "        '1. Notificações Contestadas' AS etapa_funil, \n",
+        "        CAST(contestadas AS BIGINT) AS quantidade_operacoes, \n",
+        "        valor_total_contestado_estimado AS montante_reais, \n",
+        "        100.0 AS taxa_conversao_pct \n",
+        "    FROM calculos\n",
+        "\n",
+        "    UNION ALL\n",
+        "\n",
+        "    SELECT \n",
+        "        2 AS ordem_etapa, \n",
+        "        '2. Contestações Aceitas (Fraude Confirmada)' AS etapa_funil, \n",
+        "        CAST(aceitas AS BIGINT) AS quantidade_operacoes, \n",
+        "        valor_aceito AS montante_reais, \n",
+        "        ROUND((aceitas * 100.0) / NULLIF(contestadas, 0), 1) AS taxa_conversao_pct \n",
+        "    FROM calculos\n",
+        "\n",
+        "    UNION ALL\n",
+        "\n",
+        "    SELECT \n",
+        "        3 AS ordem_etapa, \n",
+        "        '3. Valores Efetivamente Devolvidos' AS etapa_funil, \n",
+        "        CAST(devolvidas AS BIGINT) AS quantidade_operacoes, \n",
+        "        valor_devolvido AS montante_reais, \n",
+        "        ROUND((devolvidas * 100.0) / NULLIF(valor_aceito, 0), 1) AS taxa_conversao_pct \n",
+        "    FROM calculos\n",
+        ")\n",
+        "SELECT \n",
+        "    ordem_etapa,\n",
+        "    etapa_funil,\n",
+        "    quantidade_operacoes,\n",
+        "    montante_reais,\n",
+        "    taxa_conversao_pct,\n",
+        "    mvp.gold.fmt_moeda_br(montante_reais)          AS montante_formatado,\n",
+        "    mvp.gold.fmt_inteiro_br(quantidade_operacoes)   AS quantidade_formatada,\n",
+        "    CONCAT(TRANSLATE(FORMAT_NUMBER(taxa_conversao_pct, 1), '.', ','), '%') AS taxa_conversao_formatada\n",
+        "FROM etapas_unstack\n",
+        "ORDER BY ordem_etapa ASC;"
+      ]
+    },
+    {
+      "name": "b9e9a0f9",
+      "displayName": "ds_gargalos_med",
+      "queryLines": [
+        "WITH totais AS (\n",
+        "    SELECT \n",
+        "        SUM(valor_nao_devolvido_saldo_insuficiente) AS total_saldo_insuficiente,\n",
+        "        SUM(valor_nao_devolvido_conta_encerrada)     AS total_conta_encerrada,\n",
+        "        SUM(valor_nao_devolvido_motivos_diversos)    AS total_outros,\n",
+        "        SUM(valor_nao_devolvido_saldo_insuficiente + \n",
+        "            valor_nao_devolvido_conta_encerrada + \n",
+        "            valor_nao_devolvido_motivos_diversos)    AS total_perda_geral\n",
+        "    FROM mvp.gold.fato_pix_fraudes_med\n",
+        "),\n",
+        "motivos_unstack AS (\n",
+        "    SELECT \n",
+        "        'Saldo Insuficiente na Conta Receptora' AS motivo_falha,\n",
+        "        1 AS ordem_criticidade,\n",
+        "        total_saldo_insuficiente AS valor_nao_recuperado_reais,\n",
+        "        ROUND((total_saldo_insuficiente / NULLIF(total_perda_geral, 0)) * 100.0, 1) AS pct_perda\n",
+        "    FROM totais\n",
+        "\n",
+        "    UNION ALL\n",
+        "\n",
+        "    SELECT \n",
+        "        'Conta de Destino Encerrada' AS motivo_falha,\n",
+        "        2 AS ordem_criticidade,\n",
+        "        total_conta_encerrada AS valor_nao_recuperado_reais,\n",
+        "        ROUND((total_conta_encerrada / NULLIF(total_perda_geral, 0)) * 100.0, 1) AS pct_perda\n",
+        "    FROM totais\n",
+        "\n",
+        "    UNION ALL\n",
+        "\n",
+        "    SELECT \n",
+        "        'Outros Motivos Operacionais / Judiciais' AS motivo_falha,\n",
+        "        3 AS ordem_criticidade,\n",
+        "        total_outros AS valor_nao_recuperado_reais,\n",
+        "        ROUND((total_outros / NULLIF(total_perda_geral, 0)) * 100.0, 1) AS pct_perda\n",
+        "    FROM totais\n",
+        ")\n",
+        "SELECT \n",
+        "    motivo_falha,\n",
+        "    ordem_criticidade,\n",
+        "    valor_nao_recuperado_reais,\n",
+        "    pct_perda,\n",
+        "    mvp.gold.fmt_moeda_br(valor_nao_recuperado_reais) AS valor_formatado,\n",
+        "    CONCAT(TRANSLATE(FORMAT_NUMBER(pct_perda, 1), '.', ','), '%') AS pct_formatado\n",
+        "FROM motivos_unstack\n",
+        "ORDER BY valor_nao_recuperado_reais DESC;"
+      ]
+    },
+    {
+      "name": "62a0d89c",
+      "displayName": "ds_canal_faixa_etaria",
+      "queryLines": [
+        "WITH base_tratada AS (\n",
+        "    SELECT \n",
+        "        -- 1. Eixo Temporal\n",
+        "        TO_DATE(CAST(f.anomes AS STRING), 'yyyyMM') AS data_referencia,\n",
+        "        f.anomes                                     AS mes_ano,\n",
+        "\n",
+        "        -- 2. Canais Bacen Padronizados\n",
+        "        CASE \n",
+        "            WHEN UPPER(TRIM(COALESCE(m.forma_iniciacao, CAST(f.sk_modalidade AS STRING)))) IN ('DICT', 'CHAVE PIX', 'CHAVE_PIX') \n",
+        "                THEN 'Chave Pix (DICT)'\n",
+        "            WHEN UPPER(TRIM(COALESCE(m.forma_iniciacao, CAST(f.sk_modalidade AS STRING)))) IN ('QRDN', 'QR DINAMICO', 'QR_DINAMICO', 'QR CODE DINAMICO') \n",
+        "                THEN 'QR Dinâmico (QRDN)'\n",
+        "            WHEN UPPER(TRIM(COALESCE(m.forma_iniciacao, CAST(f.sk_modalidade AS STRING)))) IN ('QRMS', 'QR ESTATICO', 'QR_ESTATICO', 'QR CODE ESTATICO') \n",
+        "                THEN 'QR Estático (QRMS)'\n",
+        "            WHEN UPPER(TRIM(COALESCE(m.forma_iniciacao, CAST(f.sk_modalidade AS STRING)))) IN ('MANU', 'MANUAL', 'INSERCAO MANUAL', 'DADOS BANCARIOS') \n",
+        "                THEN 'Dados Bancários (MANU)'\n",
+        "            WHEN UPPER(TRIM(COALESCE(m.forma_iniciacao, CAST(f.sk_modalidade AS STRING)))) IN ('INIC', 'INICIADOR', 'ITP', 'OPEN FINANCE') \n",
+        "                THEN 'Iniciação de Pagamento (INIC)'\n",
+        "            ELSE 'Outras Formas'\n",
+        "        END AS forma_iniciacao,\n",
+        "\n",
+        "        -- Ordem das cores\n",
+        "        CASE \n",
+        "            WHEN UPPER(TRIM(COALESCE(m.forma_iniciacao, CAST(f.sk_modalidade AS STRING)))) IN ('DICT', 'CHAVE PIX', 'CHAVE_PIX') THEN 1\n",
+        "            WHEN UPPER(TRIM(COALESCE(m.forma_iniciacao, CAST(f.sk_modalidade AS STRING)))) IN ('QRDN', 'QR DINAMICO', 'QR_DINAMICO', 'QR CODE DINAMICO') THEN 2\n",
+        "            WHEN UPPER(TRIM(COALESCE(m.forma_iniciacao, CAST(f.sk_modalidade AS STRING)))) IN ('QRMS', 'QR ESTATICO', 'QR_ESTATICO', 'QR CODE ESTATICO') THEN 3\n",
+        "            WHEN UPPER(TRIM(COALESCE(m.forma_iniciacao, CAST(f.sk_modalidade AS STRING)))) IN ('MANU', 'MANUAL', 'INSERCAO MANUAL', 'DADOS BANCARIOS') THEN 4\n",
+        "            WHEN UPPER(TRIM(COALESCE(m.forma_iniciacao, CAST(f.sk_modalidade AS STRING)))) IN ('INIC', 'INICIADOR', 'ITP', 'OPEN FINANCE') THEN 5\n",
+        "            ELSE 99\n",
+        "        END AS ordem_iniciacao,\n",
+        "\n",
+        "        -- 3. Mapeamento 100% Exato da dim_perfil_cliente\n",
+        "        CASE \n",
+        "            WHEN p.faixa_etaria IS NULL \n",
+        "              OR UPPER(TRIM(p.faixa_etaria)) IN ('NAO INFORMADO', 'NÃO INFORMADO', 'NAO SE APLICA', 'NÃO SE APLICA', 'NA89', 'NA 89', 'N/A', '') \n",
+        "                THEN 'Não Informado'\n",
+        "            WHEN LOWER(TRIM(p.faixa_etaria)) = 'até 19 anos' THEN 'Até 19 anos'\n",
+        "            WHEN LOWER(TRIM(p.faixa_etaria)) = 'entre 20 e 29 anos' THEN '20 a 29 anos'\n",
+        "            WHEN LOWER(TRIM(p.faixa_etaria)) = 'entre 30 e 39 anos' THEN '30 a 39 anos'\n",
+        "            WHEN LOWER(TRIM(p.faixa_etaria)) = 'entre 40 e 49 anos' THEN '40 a 49 anos'\n",
+        "            WHEN LOWER(TRIM(p.faixa_etaria)) = 'entre 50 e 59 anos' THEN '50 a 59 anos'\n",
+        "            WHEN LOWER(TRIM(p.faixa_etaria)) = 'mais de 60 anos' THEN '60 anos ou mais'\n",
+        "            ELSE 'Não Informado'\n",
+        "        END AS faixa_etaria_pagador,\n",
+        "\n",
+        "        -- 4. Ordem Cronológica\n",
+        "        CASE \n",
+        "            WHEN LOWER(TRIM(p.faixa_etaria)) = 'até 19 anos' THEN 1\n",
+        "            WHEN LOWER(TRIM(p.faixa_etaria)) = 'entre 20 e 29 anos' THEN 2\n",
+        "            WHEN LOWER(TRIM(p.faixa_etaria)) = 'entre 30 e 39 anos' THEN 3\n",
+        "            WHEN LOWER(TRIM(p.faixa_etaria)) = 'entre 40 e 49 anos' THEN 4\n",
+        "            WHEN LOWER(TRIM(p.faixa_etaria)) = 'entre 50 e 59 anos' THEN 5\n",
+        "            WHEN LOWER(TRIM(p.faixa_etaria)) = 'mais de 60 anos' THEN 6\n",
+        "            ELSE 99\n",
+        "        END AS ordem_faixa_etaria_pagador,\n",
+        "\n",
+        "        f.quantidade_tx,\n",
+        "        f.montante_reais\n",
+        "\n",
+        "    FROM mvp.gold.fato_pix_transacoes f\n",
+        "    INNER JOIN mvp.gold.dim_modalidade_pix m\n",
+        "        ON f.sk_modalidade = m.sk_modalidade\n",
+        "    LEFT JOIN mvp.gold.dim_perfil_cliente p\n",
+        "        ON f.sk_perfil_pagador = p.sk_perfil\n",
+        "    WHERE f.anomes IS NOT NULL\n",
+        "),\n",
+        "agrupado AS (\n",
+        "    SELECT \n",
+        "        data_referencia,\n",
+        "        mes_ano,\n",
+        "        forma_iniciacao,\n",
+        "        ordem_iniciacao,\n",
+        "        faixa_etaria_pagador,\n",
+        "        ordem_faixa_etaria_pagador,\n",
+        "        SUM(quantidade_tx)                                                     AS total_operacoes,\n",
+        "        SUM(montante_reais)                                                    AS total_valor,\n",
+        "        ROUND(SUM(montante_reais) / NULLIF(SUM(quantidade_tx), 0), 2)         AS ticket_medio_valor\n",
+        "    FROM base_tratada\n",
+        "    GROUP BY \n",
+        "        data_referencia,\n",
+        "        mes_ano,\n",
+        "        forma_iniciacao,\n",
+        "        ordem_iniciacao,\n",
+        "        faixa_etaria_pagador,\n",
+        "        ordem_faixa_etaria_pagador\n",
+        ")\n",
+        "SELECT \n",
+        "    data_referencia,\n",
+        "    mes_ano,\n",
+        "    forma_iniciacao,\n",
+        "    ordem_iniciacao,\n",
+        "    faixa_etaria_pagador,\n",
+        "    ordem_faixa_etaria_pagador,\n",
+        "    total_operacoes,\n",
+        "    total_valor,\n",
+        "    ticket_medio_valor,\n",
+        "\n",
+        "    -- Percentual numérico para renderização ou cálculos (0 a 100)\n",
+        "    ROUND(\n",
+        "        (total_operacoes * 100.0) / NULLIF(SUM(total_operacoes) OVER(PARTITION BY data_referencia, faixa_etaria_pagador), 0), \n",
+        "        2\n",
+        "    ) AS pct_operacoes_num,\n",
+        "\n",
+        "    -- Percentual formatado no padrão brasileiro (ex.: '45,2%')\n",
+        "    COALESCE(\n",
+        "        mvp.gold.fmt_pct_br((total_operacoes * 1.0) / NULLIF(SUM(total_operacoes) OVER(PARTITION BY data_referencia, faixa_etaria_pagador), 0)),\n",
+        "        CONCAT(\n",
+        "            REPLACE(\n",
+        "                CAST(ROUND((total_operacoes * 100.0) / NULLIF(SUM(total_operacoes) OVER(PARTITION BY data_referencia, faixa_etaria_pagador), 0), 1) AS STRING), \n",
+        "                '.', \n",
+        "                ','\n",
+        "            ), \n",
+        "            '%'\n",
+        "        )\n",
+        "    ) AS pct_operacoes_formatado,\n",
+        "\n",
+        "    -- Formatações monetárias e volumétricas BR\n",
+        "    mvp.gold.fmt_inteiro_br(total_operacoes) AS total_operacoes_formatado,\n",
+        "    mvp.gold.fmt_moeda_br(total_valor)      AS total_valor_formatado,\n",
+        "    mvp.gold.fmt_moeda_br(ticket_medio_valor) AS ticket_medio_formatado\n",
+        "\n",
+        "FROM agrupado\n",
+        "ORDER BY \n",
+        "    data_referencia ASC,\n",
+        "    ordem_faixa_etaria_pagador ASC,\n",
+        "    ordem_iniciacao ASC;"
+      ]
+    },
+    {
+      "name": "daf8d49a",
+      "displayName": "Gold Schema Tables Overview Dataset",
+      "queryLines": [
+        "SHOW TABLES IN mvp.gold;"
+      ]
+    },
+    {
+      "name": "e2f0f8cf",
+      "displayName": "ds_balanca_regional",
+      "queryLines": [
+        "WITH envios AS (\n",
+        "    SELECT \n",
+        "        TO_DATE(CAST(f.anomes AS STRING), 'yyyyMM') AS data_referencia,\n",
+        "        f.anomes                                     AS mes_ano,\n",
+        "        r.nome_regiao                                AS nome_regiao,\n",
+        "        SUM(f.montante_reais)                        AS montante_enviado\n",
+        "    FROM mvp.gold.fato_pix_transacoes f\n",
+        "    INNER JOIN mvp.gold.dim_regiao r \n",
+        "        ON f.sk_regiao_pagador = r.sk_regiao\n",
+        "    WHERE f.anomes IS NOT NULL\n",
+        "    GROUP BY 1, 2, 3\n",
+        "),\n",
+        "recebimentos AS (\n",
+        "    SELECT \n",
+        "        TO_DATE(CAST(f.anomes AS STRING), 'yyyyMM') AS data_referencia,\n",
+        "        f.anomes                                     AS mes_ano,\n",
+        "        r.nome_regiao                                AS nome_regiao,\n",
+        "        SUM(f.montante_reais)                        AS montante_recebido\n",
+        "    FROM mvp.gold.fato_pix_transacoes f\n",
+        "    INNER JOIN mvp.gold.dim_regiao r \n",
+        "        ON f.sk_regiao_recebedor = r.sk_regiao\n",
+        "    WHERE f.anomes IS NOT NULL\n",
+        "    GROUP BY 1, 2, 3\n",
+        "),\n",
+        "balanca_mes AS (\n",
+        "    SELECT \n",
+        "        COALESCE(e.data_referencia, rc.data_referencia) AS data_referencia,\n",
+        "        COALESCE(e.mes_ano, rc.mes_ano)                 AS mes_ano,\n",
+        "        COALESCE(e.nome_regiao, rc.nome_regiao)         AS nome_regiao,\n",
+        "        COALESCE(e.nome_regiao, rc.nome_regiao)         AS regiao_origem,\n",
+        "        COALESCE(e.montante_enviado, 0.0)               AS montante_enviado,\n",
+        "        COALESCE(rc.montante_recebido, 0.0)             AS montante_recebido,\n",
+        "        \n",
+        "        -- Saldo Líquido do mês\n",
+        "        (COALESCE(rc.montante_recebido, 0.0) - COALESCE(e.montante_enviado, 0.0)) AS saldo_liquido,\n",
+        "        \n",
+        "        -- Volume total movimentado pela região no mês\n",
+        "        (COALESCE(e.montante_enviado, 0.0) + COALESCE(rc.montante_recebido, 0.0)) AS montante_total_movimentado\n",
+        "    FROM envios e\n",
+        "    FULL OUTER JOIN recebimentos rc \n",
+        "        ON e.data_referencia = rc.data_referencia \n",
+        "       AND e.nome_regiao = rc.nome_regiao\n",
+        "),\n",
+        "totais_mes AS (\n",
+        "    SELECT \n",
+        "        data_referencia,\n",
+        "        SUM(montante_total_movimentado) AS total_mes_brasil\n",
+        "    FROM balanca_mes\n",
+        "    GROUP BY data_referencia\n",
+        ")\n",
+        "SELECT \n",
+        "    b.data_referencia,\n",
+        "    b.mes_ano,\n",
+        "    b.nome_regiao,\n",
+        "    b.regiao_origem,\n",
+        "    b.montante_enviado,\n",
+        "    b.montante_recebido,\n",
+        "    b.saldo_liquido,\n",
+        "    b.montante_total_movimentado,\n",
+        "\n",
+        "    -- Classificação única por mês baseada na regra matemática\n",
+        "    CASE \n",
+        "        WHEN b.saldo_liquido < 0 THEN 'Emissora Líquida'\n",
+        "        ELSE 'Receptora Líquida'\n",
+        "    END AS classificacao_fluxo,\n",
+        "\n",
+        "    -- Percentual de concentração do mês\n",
+        "    ROUND(\n",
+        "        (CAST(b.montante_total_movimentado AS DOUBLE) / NULLIF(t.total_mes_brasil, 0)), \n",
+        "        4\n",
+        "    ) AS share_pct_mes_decimal,\n",
+        "\n",
+        "    -- Formatações Gold para Tooltips e Rótulos\n",
+        "    mvp.gold.fmt_pct_br(\n",
+        "        ROUND((CAST(b.montante_total_movimentado AS DOUBLE) / NULLIF(t.total_mes_brasil, 0)) * 100.0, 2)\n",
+        "    ) AS share_pct_formatado,\n",
+        "    mvp.gold.fmt_moeda_br(b.montante_total_movimentado) AS montante_total_formatado,\n",
+        "    mvp.gold.fmt_moeda_br(b.montante_enviado)           AS montante_enviado_formatado,\n",
+        "    mvp.gold.fmt_moeda_br(b.montante_recebido)          AS montante_recebido_formatado,\n",
+        "    mvp.gold.fmt_moeda_br(b.saldo_liquido)              AS saldo_liquido_formatado\n",
+        "\n",
+        "FROM balanca_mes b\n",
+        "INNER JOIN totais_mes t \n",
+        "    ON b.data_referencia = t.data_referencia\n",
+        "ORDER BY \n",
+        "    b.data_referencia ASC,\n",
+        "    b.montante_total_movimentado DESC;"
+      ]
+    },
+    {
+      "name": "d49dc0d5",
+      "displayName": "ds_evolucao_med_mensal",
+      "queryLines": [
+        "SELECT \n",
+        "    -- 1. Eixo Temporal Mensal\n",
+        "    TO_DATE(CAST(sk_tempo AS STRING), 'yyyyMM') AS data_referencia,\n",
+        "    sk_tempo                                     AS mes_ano,\n",
+        "\n",
+        "    -- 2. Volumes Financeiros Agregados por Mês\n",
+        "    SUM(valor_contestacoes_aceitas_reais)        AS montante_aceito_fraude,\n",
+        "    SUM(valor_devolvido_integral_reais + valor_devolvido_parcial_reais) AS montante_devolvido,\n",
+        "\n",
+        "    -- 3. Taxa Efetiva de Recuperação Financeira (%)\n",
+        "    ROUND(\n",
+        "        (SUM(valor_devolvido_integral_reais + valor_devolvido_parcial_reais) * 100.0) / \n",
+        "        NULLIF(SUM(valor_contestacoes_aceitas_reais), 0),\n",
+        "        2\n",
+        "    ) AS taxa_recuperacao_pct,\n",
+        "\n",
+        "    -- 4. Quantidade de Vítimas e Devoluções\n",
+        "    SUM(qtde_contestacoes_aceitas)               AS qtd_fraudes_confirmadas,\n",
+        "    SUM(qtde_devolucoes_integrais + qtde_devolucoes_parciais) AS qtd_casos_devolvidos,\n",
+        "\n",
+        "    -- 5. Rótulos Formatados no Padrão BR para Tooltips\n",
+        "    mvp.gold.fmt_moeda_br(SUM(valor_contestacoes_aceitas_reais)) AS montante_aceito_formatado,\n",
+        "    mvp.gold.fmt_moeda_br(SUM(valor_devolvido_integral_reais + valor_devolvido_parcial_reais)) AS montante_devolvido_formatado,\n",
+        "    CONCAT(\n",
+        "        REPLACE(\n",
+        "            CAST(ROUND((SUM(valor_devolvido_integral_reais + valor_devolvido_parcial_reais) * 100.0) / \n",
+        "                 NULLIF(SUM(valor_contestacoes_aceitas_reais), 0), 1) AS STRING),\n",
+        "            '.',\n",
+        "            ','\n",
+        "        ),\n",
+        "        '%'\n",
+        "    ) AS taxa_recuperacao_formatada\n",
+        "\n",
+        "FROM mvp.gold.fato_pix_fraudes_med\n",
+        "WHERE sk_tempo IS NOT NULL\n",
+        "GROUP BY \n",
+        "    sk_tempo, 1\n",
+        "ORDER BY \n",
+        "    data_referencia ASC;"
+      ]
+    },
+    {
+      "name": "8c39c9e0",
+      "displayName": "ds_calendario_global",
+      "queryLines": [
+        "SELECT DISTINCT CAST(data_competencia AS DATE) AS data_competencia\n",
+        "FROM mvp.gold.fato_pix_fraudes_med\n",
+        "WHERE data_competencia IS NOT NULL\n",
+        "ORDER BY data_competencia ASC;"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "name": "a4af4449",
+      "displayName": "Painel Executivo: Ecossistema Pix & Inteligência MED",
+      "layout": [
+        {
+          "widget": {
+            "name": "c0d1ee54",
+            "multilineTextboxSpec": {
+              "lines": [
+                "# 📊 Monitoramento Estratégico: Transações Pix & Eficácia do MED\n",
+                "\n",
+                "Painel analítico integrado ao Censo IBGE e dados abertos do Banco Central do Brasil."
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 12,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "mes-de-referencia",
+            "queries": [
+              {
+                "name": "dashboards/01f1b680c8b0138ca76cd9459b6afa9b/datasets/01f1bb150ed814cc98bc6dadaea37a86_ordem_mes_ano",
+                "query": {
+                  "datasetName": "8d1b6038",
+                  "fields": [
+                    {
+                      "name": "ordem_mes_ano",
+                      "expression": "`ordem_mes_ano`"
+                    },
+                    {
+                      "name": "ordem_mes_ano_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              },
+              {
+                "name": "dashboards/01f1b680c8b0138ca76cd9459b6afa9b/datasets/01f1bb9916f8180e88f6db4c3124404a_mes_ano",
+                "query": {
+                  "datasetName": "1ccd0aef",
+                  "fields": [
+                    {
+                      "name": "mes_ano",
+                      "expression": "`mes_ano`"
+                    },
+                    {
+                      "name": "mes_ano_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              },
+              {
+                "name": "dashboards/01f1b680c8b0138ca76cd9459b6afa9b/datasets/01f1bb022d481dbdbf3f875ff1f0d3d9_mes_ano",
+                "query": {
+                  "datasetName": "dea71155",
+                  "fields": [
+                    {
+                      "name": "mes_ano",
+                      "expression": "`mes_ano`"
+                    },
+                    {
+                      "name": "mes_ano_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              },
+              {
+                "name": "dashboards/01f1b680c8b0138ca76cd9459b6afa9b/datasets/01f1bc00661d1d51acc98ae1c9e2c286_mes_ano",
+                "query": {
+                  "datasetName": "78ffaebf",
+                  "fields": [
+                    {
+                      "name": "mes_ano",
+                      "expression": "`mes_ano`"
+                    },
+                    {
+                      "name": "mes_ano_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              },
+              {
+                "name": "dashboards/01f1b680c8b0138ca76cd9459b6afa9b/datasets/01f1bc65dd001bb482eabd56446f17a4_mes_ano",
+                "query": {
+                  "datasetName": "18897e75",
+                  "fields": [
+                    {
+                      "name": "mes_ano",
+                      "expression": "`mes_ano`"
+                    },
+                    {
+                      "name": "mes_ano_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              },
+              {
+                "name": "dashboards/01f1b680c8b0138ca76cd9459b6afa9b/datasets/01f1bcd54e0e1d23bf883180ffa23c3c_mes_ano",
+                "query": {
+                  "datasetName": "e2f0f8cf",
+                  "fields": [
+                    {
+                      "name": "mes_ano",
+                      "expression": "`mes_ano`"
+                    },
+                    {
+                      "name": "mes_ano_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              },
+              {
+                "name": "dashboards/01f1b680c8b0138ca76cd9459b6afa9b/datasets/01f1bcbc98fe1930b7846bc96a6a3a8c_mes_ano",
+                "query": {
+                  "datasetName": "62a0d89c",
+                  "fields": [
+                    {
+                      "name": "mes_ano",
+                      "expression": "`mes_ano`"
+                    },
+                    {
+                      "name": "mes_ano_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "showTitle": true,
+                "title": {
+                  "value": "<span style=\"font-size:18px\">Mês / Ano de Referência</span>",
+                  "fields": []
+                }
+              },
+              "widgetType": "filter-single-select",
+              "encodings": {
+                "fields": [
+                  {
+                    "fieldName": "ordem_mes_ano",
+                    "queryName": "dashboards/01f1b680c8b0138ca76cd9459b6afa9b/datasets/01f1bb150ed814cc98bc6dadaea37a86_ordem_mes_ano"
+                  },
+                  {
+                    "fieldName": "mes_ano",
+                    "queryName": "dashboards/01f1b680c8b0138ca76cd9459b6afa9b/datasets/01f1bb9916f8180e88f6db4c3124404a_mes_ano"
+                  },
+                  {
+                    "fieldName": "mes_ano",
+                    "queryName": "dashboards/01f1b680c8b0138ca76cd9459b6afa9b/datasets/01f1bb022d481dbdbf3f875ff1f0d3d9_mes_ano"
+                  },
+                  {
+                    "fieldName": "mes_ano",
+                    "queryName": "dashboards/01f1b680c8b0138ca76cd9459b6afa9b/datasets/01f1bc00661d1d51acc98ae1c9e2c286_mes_ano"
+                  },
+                  {
+                    "fieldName": "mes_ano",
+                    "queryName": "dashboards/01f1b680c8b0138ca76cd9459b6afa9b/datasets/01f1bc65dd001bb482eabd56446f17a4_mes_ano"
+                  },
+                  {
+                    "fieldName": "mes_ano",
+                    "queryName": "dashboards/01f1b680c8b0138ca76cd9459b6afa9b/datasets/01f1bcd54e0e1d23bf883180ffa23c3c_mes_ano"
+                  },
+                  {
+                    "fieldName": "mes_ano",
+                    "queryName": "dashboards/01f1b680c8b0138ca76cd9459b6afa9b/datasets/01f1bcbc98fe1930b7846bc96a6a3a8c_mes_ano"
+                  }
+                ]
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 2,
+            "width": 12,
+            "height": 1
+          }
+        },
+        {
+          "widget": {
+            "name": "volume-financeiro-total",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "dea71155",
+                  "fields": [
+                    {
+                      "name": "sum(valor_total_reais)",
+                      "expression": "SUM(`valor_total_reais`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "frame": {
+                "showTitle": true,
+                "showDescription": false,
+                "title": {
+                  "value": "<span style=\"text-align:center;display:block\"><span style=\"font-size:18px\">Volume Total</span></span>",
+                  "fields": []
+                }
+              },
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "sum(valor_total_reais)",
+                  "format": {
+                    "type": "number-currency",
+                    "currencyCode": "BRL",
+                    "abbreviation": "compact",
+                    "decimalPlaces": {
+                      "type": "max",
+                      "places": 2
+                    }
+                  },
+                  "style": {
+                    "fontSize": 40
+                  }
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 5,
+            "width": 3,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "volume-de-operacoes",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "dea71155",
+                  "fields": [
+                    {
+                      "name": "sum(quantidade_transacoes)",
+                      "expression": "SUM(`quantidade_transacoes`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "frame": {
+                "showTitle": true,
+                "title": {
+                  "value": "<span style=\"text-align:center;display:block\"><span style=\"font-size:18px\">Total de Transações</span></span>",
+                  "fields": []
+                }
+              },
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "sum(quantidade_transacoes)",
+                  "style": {
+                    "fontSize": 40
+                  }
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 3,
+            "y": 5,
+            "width": 3,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "ticket-medio-geral",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "8d1b6038",
+                  "fields": [
+                    {
+                      "name": "avg(ticket_medio_nacional)",
+                      "expression": "AVG(`ticket_medio_nacional`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "frame": {
+                "showTitle": true,
+                "title": {
+                  "value": "<span style=\"text-align:center;display:block\"><span style=\"font-size:18px\">Ticket Médio Nacional</span></span>",
+                  "fields": []
+                }
+              },
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "avg(ticket_medio_nacional)",
+                  "style": {
+                    "fontSize": 40
+                  },
+                  "format": {
+                    "type": "number-currency",
+                    "currencyCode": "BRL",
+                    "abbreviation": "compact",
+                    "decimalPlaces": {
+                      "type": "max",
+                      "places": 2
+                    }
+                  }
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 6,
+            "y": 5,
+            "width": 3,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "evolucao-mensal-volume-financeiro-vs-taxas-risco-med",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "f15ac756",
+                  "fields": [
+                    {
+                      "name": "monthly(data_competencia)",
+                      "expression": "DATE_TRUNC(\"MONTH\", `data_competencia`)"
+                    },
+                    {
+                      "name": "volume_total_reais",
+                      "expression": "`volume_total_reais`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "frame": {
+                "showTitle": true,
+                "showDescription": true,
+                "title": {
+                  "value": "<span style=\"text-align:center;display:block\"><span style=\"font-size:18px\">Gráfico 1.1: Evolução Mensal do Volume Financeiro Pix (R$)</span></span>",
+                  "fields": []
+                },
+                "description": {
+                  "value": "<span style=\"text-align:center;display:block;\">*Transações mensais liquidadas no SPI. Variações expressivas no final do ano refletem pagamentos de 13º e consumo sazonal.*</span>",
+                  "fields": []
+                }
+              },
+              "version": 3,
+              "mark": {
+                "colors": [
+                  "#1F77B4"
+                ]
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "monthly(data_competencia)",
+                  "format": {
+                    "type": "date",
+                    "date": "locale-number-month-full-year",
+                    "leadingZeros": true
+                  },
+                  "axis": {
+                    "title": "Competência",
+                    "hideTitle": true
+                  },
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "volume_total_reais",
+                  "format": {
+                    "type": "number-plain",
+                    "abbreviation": "compact",
+                    "decimalPlaces": {
+                      "type": "max",
+                      "places": 2
+                    },
+                    "negativeSign": "accounting"
+                  },
+                  "axis": {
+                    "title": "Montante Liquidado (R$)"
+                  },
+                  "displayName": "Volume Total (R$)",
+                  "scale": {
+                    "type": "quantitative",
+                    "domain": {
+                      "type": "custom"
+                    }
+                  }
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 11,
+            "width": 12,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "455a2114",
+            "multilineTextboxSpec": {
+              "lines": [
+                "### 📈 1. Visão Executiva & Tendência Histórica\n",
+                "\n",
+                "*Acompanhamento dos principais indicadores de volume, liquidação e taxas de contestação.*"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 3,
+            "width": 12,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "07366e1f",
+            "multilineTextboxSpec": {
+              "lines": [
+                "### 📍 2. Panorama Regional & Demografia IBGE: Liquidez e Intensidade Per Capita\n",
+                "\n",
+                "*Mapeamento dos fluxos líquidos entre macrorregiões brasileiras e correlação da densidade transacional do Pix com as estimativas populacionais do IBGE.*"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 23,
+            "width": 12,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "15464581",
+            "multilineTextboxSpec": {
+              "lines": [
+                "## 👥 3. Comportamento PF/PJ & Canais de Pagamento\n",
+                "\n",
+                "*Dinâmica transacional (P2P, P2B, B2P, B2B) e maturidade digital por faixa etária.*\n",
+                "\n",
+                "> **Nota:** Considera transações Pix liquidadas no período. Canais residuais ('Não informado' e 'Não se aplica') mantidos para integridade volumétrica."
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 37,
+            "width": 12,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "ranking-per-capita",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "e2f0f8cf",
+                  "fields": [
+                    {
+                      "name": "classificacao_fluxo",
+                      "expression": "`classificacao_fluxo`"
+                    },
+                    {
+                      "name": "first(share_pct_formatado)",
+                      "expression": "FIRST(`share_pct_formatado`)"
+                    },
+                    {
+                      "name": "first(montante_enviado_formatado)",
+                      "expression": "FIRST(`montante_enviado_formatado`)"
+                    },
+                    {
+                      "name": "first(montante_recebido_formatado)",
+                      "expression": "FIRST(`montante_recebido_formatado`)"
+                    },
+                    {
+                      "name": "first(saldo_liquido_formatado)",
+                      "expression": "FIRST(`saldo_liquido_formatado`)"
+                    },
+                    {
+                      "name": "max(share_pct_mes_decimal)",
+                      "expression": "MAX(`share_pct_mes_decimal`)"
+                    },
+                    {
+                      "name": "sum(montante_total_movimentado)",
+                      "expression": "SUM(`montante_total_movimentado`)"
+                    },
+                    {
+                      "name": "regiao_origem",
+                      "expression": "`regiao_origem`"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "frame": {
+                "showTitle": true,
+                "showDescription": true,
+                "title": {
+                  "value": "<span style=\"text-align:center;display:block\"><span style=\"font-size: 18px;\">Gráfico 2.2: Balança Regional e Concentração de Volume Pix</span></span>",
+                  "fields": []
+                },
+                "description": {
+                  "value": "<span style=\"text-align:center;display:block\">*Montante total transacionado (R$) e porcentagem de concentração regional do Pix (valores apresentados nas barras e no detalhe interativo)*</span>",
+                  "fields": []
+                }
+              },
+              "version": 3,
+              "annotations": [],
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "sum(montante_total_movimentado)",
+                  "displayName": "Montante Transacionado (R$)",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "y": {
+                  "fieldName": "regiao_origem",
+                  "displayName": "Região",
+                  "scale": {
+                    "type": "categorical",
+                    "sort": {
+                      "by": "x-reversed"
+                    }
+                  }
+                },
+                "color": {
+                  "fieldName": "classificacao_fluxo",
+                  "displayName": "Perfil de Fluxo",
+                  "scale": {
+                    "type": "categorical",
+                    "mappings": [
+                      {
+                        "value": "Emissora Líquida",
+                        "color": "#E65100"
+                      },
+                      {
+                        "value": "Receptora Líquida",
+                        "color": "#0E8A16"
+                      }
+                    ]
+                  }
+                },
+                "label": {
+                  "show": true,
+                  "text": {
+                    "fieldName": "max(share_pct_mes_decimal)",
+                    "format": {
+                      "type": "number-percent",
+                      "decimalPlaces": {
+                        "type": "max",
+                        "places": 1
+                      }
+                    },
+                    "displayName": "Montante Transacionado (R$)"
+                  }
+                },
+                "extra": [
+                  {
+                    "fieldName": "first(share_pct_formatado)",
+                    "displayName": "Concentração Regional (%)"
+                  },
+                  {
+                    "fieldName": "first(montante_enviado_formatado)",
+                    "displayName": "Total Enviado (Origem)"
+                  },
+                  {
+                    "fieldName": "first(montante_recebido_formatado)",
+                    "displayName": "Total Recebido (Destino)"
+                  },
+                  {
+                    "fieldName": "first(saldo_liquido_formatado)",
+                    "displayName": "Saldo Líquido da Balança"
+                  },
+                  {
+                    "fieldName": "classificacao_fluxo",
+                    "displayName": "Classificação do Fluxo"
+                  }
+                ]
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 31,
+            "width": 12,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "ranking-per-capita-1",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "18897e75",
+                  "fields": [
+                    {
+                      "name": "perfil_fluxo_final",
+                      "expression": "`perfil_fluxo_final`"
+                    },
+                    {
+                      "name": "first(saldo_liquido_extenso)",
+                      "expression": "FIRST(`saldo_liquido_extenso`)"
+                    },
+                    {
+                      "name": "first(montante_recebido_extenso)",
+                      "expression": "FIRST(`montante_recebido_extenso`)"
+                    },
+                    {
+                      "name": "first(montante_enviado_extenso)",
+                      "expression": "FIRST(`montante_enviado_extenso`)"
+                    },
+                    {
+                      "name": "first(total_recebido_simplificado)",
+                      "expression": "FIRST(`total_recebido_simplificado`)"
+                    },
+                    {
+                      "name": "first(total_enviado_simplificado)",
+                      "expression": "FIRST(`total_enviado_simplificado`)"
+                    },
+                    {
+                      "name": "first(saldo_liquido_simplificado)",
+                      "expression": "FIRST(`saldo_liquido_simplificado`)"
+                    },
+                    {
+                      "name": "sum(saldo_liquido_regional)",
+                      "expression": "SUM(`saldo_liquido_regional`)"
+                    },
+                    {
+                      "name": "nome_regiao",
+                      "expression": "`nome_regiao`"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "frame": {
+                "showTitle": true,
+                "showDescription": true,
+                "title": {
+                  "value": "<span style=\"text-align:center;display:block\"><span style=\"font-size:18px\">Gráfico 2.1: Balança de Liquidez Inter-Regional (Entradas vs. Saídas)</span></span>",
+                  "fields": []
+                },
+                "description": {
+                  "value": "<span style=\"text-align:left;display:block\">*Posição Mensal de liquidez líquida das macrorregiões brasileiras. Regiões receptoras (verde) recebem mais capital do que enviam; regiões emissoras (vermelho) apresentam saldo líquido negativo de capital.*</span>",
+                  "fields": []
+                }
+              },
+              "version": 3,
+              "annotations": [],
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "sum(saldo_liquido_regional)",
+                  "displayName": "Saldo Líquido",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "y": {
+                  "fieldName": "nome_regiao",
+                  "displayName": "Região",
+                  "scale": {
+                    "type": "categorical",
+                    "sort": {
+                      "by": "x-reversed"
+                    }
+                  }
+                },
+                "color": {
+                  "fieldName": "perfil_fluxo_final",
+                  "displayName": "Comportamento de Fluxo",
+                  "scale": {
+                    "type": "categorical",
+                    "mappings": [
+                      {
+                        "value": "Receptora Líquida",
+                        "color": "#0E8A16"
+                      },
+                      {
+                        "value": "Emissora Líquida",
+                        "color": "#D9534F"
+                      }
+                    ]
+                  }
+                },
+                "label": {
+                  "show": true,
+                  "showTotal": false,
+                  "text": {
+                    "fieldName": "first(saldo_liquido_simplificado)"
+                  }
+                },
+                "extra": [
+                  {
+                    "fieldName": "first(saldo_liquido_extenso)",
+                    "displayName": "Saldo Líquido Regional"
+                  },
+                  {
+                    "fieldName": "first(montante_recebido_extenso)",
+                    "displayName": "Total de Entradas (Recebido)"
+                  },
+                  {
+                    "fieldName": "first(montante_enviado_extenso)",
+                    "displayName": "Total de Saídas (Enviado)"
+                  },
+                  {
+                    "fieldName": "first(total_recebido_simplificado)",
+                    "displayName": "Volume Recebido (Compacto)"
+                  },
+                  {
+                    "fieldName": "first(total_enviado_simplificado)",
+                    "displayName": "Volume Enviado (Compacto)"
+                  }
+                ]
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 3,
+            "y": 25,
+            "width": 9,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "concentracao-volume-financeiro-relacao-pagamento",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "78ffaebf",
+                  "fields": [
+                    {
+                      "name": "first(perfil_relacionamento)",
+                      "expression": "FIRST(`perfil_relacionamento`)"
+                    },
+                    {
+                      "name": "first(pct_quantidade_formatado)",
+                      "expression": "FIRST(`pct_quantidade_formatado`)"
+                    },
+                    {
+                      "name": "first(pct_montante_formatado)",
+                      "expression": "FIRST(`pct_montante_formatado`)"
+                    },
+                    {
+                      "name": "first(quantidade_formatada)",
+                      "expression": "FIRST(`quantidade_formatada`)"
+                    },
+                    {
+                      "name": "first(montante_liquidado_formatado)",
+                      "expression": "FIRST(`montante_liquidado_formatado`)"
+                    },
+                    {
+                      "name": "first(ticket_medio_formatado)",
+                      "expression": "FIRST(`ticket_medio_formatado`)"
+                    },
+                    {
+                      "name": "perfil_relacionamento",
+                      "expression": "`perfil_relacionamento`"
+                    },
+                    {
+                      "name": "max(quantidade_transacoes)",
+                      "expression": "MAX(`quantidade_transacoes`)"
+                    },
+                    {
+                      "name": "max(montante_liquidado_reais)",
+                      "expression": "MAX(`montante_liquidado_reais`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "frame": {
+                "showTitle": true,
+                "showDescription": true,
+                "title": {
+                  "value": "<span style=\"text-align:center;display:block\"><span style=\"font-size:18px\">Gráfico 3.1: Volume por Modalidade de Iniciação Pix</span></span>",
+                  "fields": []
+                },
+                "description": {
+                  "value": "<span style=\"text-align:center;display:block\">*Relação entre densidade operacional (frequência de transações) e montante total liquidado por modalidade*</span>",
+                  "fields": []
+                }
+              },
+              "version": 3,
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "perfil_relacionamento",
+                  "displayName": "Perfil de Transação",
+                  "scale": {
+                    "type": "categorical",
+                    "sort": {
+                      "by": "natural-order"
+                    }
+                  }
+                },
+                "y": {
+                  "primary": {
+                    "fields": [
+                      {
+                        "fieldName": "max(quantidade_transacoes)",
+                        "displayName": "Volume de Transações"
+                      }
+                    ],
+                    "scale": {
+                      "type": "quantitative"
+                    },
+                    "format": {
+                      "type": "number-plain",
+                      "abbreviation": "compact",
+                      "decimalPlaces": {
+                        "type": "max",
+                        "places": 0
+                      }
+                    }
+                  },
+                  "secondary": {
+                    "fields": [
+                      {
+                        "fieldName": "max(montante_liquidado_reais)",
+                        "displayName": "Montante Liquidado"
+                      }
+                    ],
+                    "scale": {
+                      "type": "quantitative"
+                    },
+                    "format": {
+                      "type": "number-currency",
+                      "currencyCode": "BRL",
+                      "abbreviation": "compact",
+                      "decimalPlaces": {
+                        "type": "max",
+                        "places": 2
+                      }
+                    }
+                  }
+                },
+                "extra": [
+                  {
+                    "fieldName": "first(perfil_relacionamento)",
+                    "displayName": "Segmento / Perfil"
+                  },
+                  {
+                    "fieldName": "first(pct_quantidade_formatado)",
+                    "displayName": "% do Volume de Transações"
+                  },
+                  {
+                    "fieldName": "first(pct_montante_formatado)",
+                    "displayName": "% do Montante Financeiro"
+                  },
+                  {
+                    "fieldName": "first(quantidade_formatada)",
+                    "displayName": "Transações Totais"
+                  },
+                  {
+                    "fieldName": "first(montante_liquidado_formatado)",
+                    "displayName": "Montante Total"
+                  },
+                  {
+                    "fieldName": "first(ticket_medio_formatado)",
+                    "displayName": "Ticket Médio"
+                  }
+                ]
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 44,
+            "width": 12,
+            "height": 7
+          }
+        },
+        {
+          "widget": {
+            "name": "adocao-modalidades-iniciacao-faixa-etaria",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "62a0d89c",
+                  "fields": [
+                    {
+                      "name": "forma_iniciacao",
+                      "expression": "`forma_iniciacao`"
+                    },
+                    {
+                      "name": "first(pct_operacoes_formatado)",
+                      "expression": "FIRST(`pct_operacoes_formatado`)"
+                    },
+                    {
+                      "name": "first(total_operacoes_formatado)",
+                      "expression": "FIRST(`total_operacoes_formatado`)"
+                    },
+                    {
+                      "name": "first(ticket_medio_formatado)",
+                      "expression": "FIRST(`ticket_medio_formatado`)"
+                    },
+                    {
+                      "name": "first(total_valor_formatado)",
+                      "expression": "FIRST(`total_valor_formatado`)"
+                    },
+                    {
+                      "name": "faixa_etaria_pagador",
+                      "expression": "`faixa_etaria_pagador`"
+                    },
+                    {
+                      "name": "sum(total_operacoes)",
+                      "expression": "SUM(`total_operacoes`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "frame": {
+                "showTitle": true,
+                "showDescription": true,
+                "title": {
+                  "value": "<span style=\"text-align:center;display:block\"><span style=\"font-size: 18px;\">Gráfico 3.2: Adoção de Meios de Iniciação por Faixa Etária</span></span>",
+                  "fields": []
+                },
+                "description": {
+                  "value": "<span style=\"text-align:left;display:block;\">Distribuição de canais de iniciação Bacen e ticket médio transacionado por faixa etária pagadora. Registros sem identificação cadastral ou em canais auxiliares constam como 'Não Informado' e 'Outras Formas'</span>\n<p>&nbsp;</p>\n",
+                  "fields": []
+                }
+              },
+              "version": 3,
+              "mark": {
+                "layout": "stack"
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "faixa_etaria_pagador",
+                  "displayName": "Perfil Etário (Pagador)",
+                  "scale": {
+                    "type": "categorical",
+                    "sort": {
+                      "by": "custom-order",
+                      "orderedValues": [
+                        "Até 19 anos",
+                        "20 a 29 anos",
+                        "30 a 39 anos",
+                        "40 a 49 anos",
+                        "50 a 59 anos",
+                        "60 anos ou mais",
+                        "Não Informado"
+                      ]
+                    }
+                  }
+                },
+                "y": {
+                  "fieldName": "sum(total_operacoes)",
+                  "format": {
+                    "type": "number-plain",
+                    "abbreviation": "compact",
+                    "decimalPlaces": {
+                      "type": "max",
+                      "places": 2
+                    }
+                  },
+                  "displayName": "Volume Transacionado",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "forma_iniciacao",
+                  "displayName": "Canal Pix",
+                  "scale": {
+                    "type": "categorical",
+                    "mappings": [
+                      {
+                        "value": "Chave Pix (DICT)",
+                        "color": "#1F4E79"
+                      },
+                      {
+                        "value": "QR Dinâmico (QRDN)",
+                        "color": "#27AE60"
+                      },
+                      {
+                        "value": "Dados Bancários (MANU)",
+                        "color": "#D35400"
+                      },
+                      {
+                        "value": "Iniciação de Pagamento (INIC)",
+                        "color": "#7D3C98"
+                      },
+                      {
+                        "value": "Outras Formas",
+                        "color": "#BDC3C7"
+                      }
+                    ]
+                  }
+                },
+                "label": {
+                  "show": true
+                },
+                "extra": [
+                  {
+                    "fieldName": "first(pct_operacoes_formatado)",
+                    "displayName": "Participação no Perfil"
+                  },
+                  {
+                    "fieldName": "first(total_operacoes_formatado)",
+                    "displayName": "Volume de Transações"
+                  },
+                  {
+                    "fieldName": "first(ticket_medio_formatado)",
+                    "displayName": "Ticket Médio"
+                  },
+                  {
+                    "fieldName": "first(total_valor_formatado)",
+                    "displayName": "Montante Total"
+                  }
+                ]
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 51,
+            "width": 12,
+            "height": 9
+          }
+        },
+        {
+          "widget": {
+            "name": "funil-resolucao-operacional-med",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "e8a47078",
+                  "fields": [
+                    {
+                      "name": "first(montante_formatado)",
+                      "expression": "FIRST(`montante_formatado`)"
+                    },
+                    {
+                      "name": "first(taxa_conversao_formatada)",
+                      "expression": "FIRST(`taxa_conversao_formatada`)"
+                    },
+                    {
+                      "name": "sum(montante_reais)",
+                      "expression": "SUM(`montante_reais`)"
+                    },
+                    {
+                      "name": "etapa_funil",
+                      "expression": "`etapa_funil`"
+                    },
+                    {
+                      "name": "sum(ordem_etapa)",
+                      "expression": "SUM(`ordem_etapa`)"
+                    }
+                  ],
+                  "disaggregated": false,
+                  "orders": [
+                    {
+                      "direction": "ASC",
+                      "expression": "SUM(`ordem_etapa`)"
+                    }
+                  ]
+                }
+              }
+            ],
+            "spec": {
+              "frame": {
+                "showTitle": true,
+                "showDescription": true,
+                "title": {
+                  "value": "<span style=\"text-align:center;display:block\"><span style=\"font-size:18px\">Gráfico 4.1: Funil de Resolução Operacional do MED (Consolidado)</span></span>",
+                  "fields": []
+                },
+                "description": {
+                  "value": "<span style=\"text-align:center;display:block\">*Notificações de infração e pedidos de devolução (MED). O registro de contestação não implica necessariamente comprovação de fraude culposa*</span>",
+                  "fields": []
+                }
+              },
+              "version": 3,
+              "mark": {
+                "colors": [
+                  "#EA580C"
+                ]
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "sum(montante_reais)",
+                  "displayName": "Volume Financeiro (R$)",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "y": {
+                  "fieldName": "etapa_funil",
+                  "displayName": "Etapa do MED",
+                  "scale": {
+                    "type": "categorical",
+                    "sort": {
+                      "by": "measure",
+                      "measure": {
+                        "fieldName": "sum(ordem_etapa)"
+                      }
+                    }
+                  }
+                },
+                "label": {
+                  "show": true,
+                  "text": {
+                    "fieldName": "sum(montante_reais)",
+                    "displayName": "Montante em Risco / Devolvido"
+                  }
+                },
+                "extra": [
+                  {
+                    "fieldName": "first(montante_formatado)",
+                    "displayName": "Valor Consolidado"
+                  },
+                  {
+                    "fieldName": "first(taxa_conversao_formatada)",
+                    "displayName": "Taxa de Conversão / Sucesso"
+                  }
+                ]
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 69,
+            "width": 12,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "causas-falha-devolucao-valores-fraudados",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "b9e9a0f9",
+                  "fields": [
+                    {
+                      "name": "motivo_falha",
+                      "expression": "`motivo_falha`"
+                    },
+                    {
+                      "name": "first(valor_formatado)",
+                      "expression": "FIRST(`valor_formatado`)"
+                    },
+                    {
+                      "name": "first(pct_formatado)",
+                      "expression": "FIRST(`pct_formatado`)"
+                    },
+                    {
+                      "name": "sum(valor_nao_recuperado_reais)",
+                      "expression": "SUM(`valor_nao_recuperado_reais`)"
+                    }
+                  ],
+                  "disaggregated": false,
+                  "orders": [
+                    {
+                      "direction": "DESC",
+                      "expression": "SUM(`valor_nao_recuperado_reais`)"
+                    }
+                  ]
+                }
+              }
+            ],
+            "spec": {
+              "frame": {
+                "showTitle": true,
+                "showDescription": true,
+                "title": {
+                  "value": "<span style=\"text-align:center;display:block\"><span style=\"font-size:18px\">Gráfico 4.2: Causas de Falha na Devolução de Valores Fraudados (Consolidado)</span></span>",
+                  "fields": []
+                },
+                "description": {
+                  "value": "<span style=\"text-align:center;display:block;\">*Distribuição dos fatores que impedem o ressarcimento após deferimento da contestação*</span>",
+                  "fields": []
+                }
+              },
+              "version": 3,
+              "annotations": [],
+              "mark": {
+                "colors": [
+                  "#991B1B"
+                ]
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "sum(valor_nao_recuperado_reais)",
+                  "displayName": "Valor Não Recuperado (R$)",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "y": {
+                  "fieldName": "motivo_falha",
+                  "displayName": "Motivo da Falha / Gargalo",
+                  "scale": {
+                    "type": "categorical",
+                    "sort": {
+                      "by": "measure-reversed",
+                      "measure": {
+                        "fieldName": "sum(valor_nao_recuperado_reais)"
+                      }
+                    }
+                  }
+                },
+                "color": {
+                  "fieldName": "motivo_falha",
+                  "legend": {
+                    "hide": true
+                  },
+                  "displayName": "Motivo",
+                  "scale": {
+                    "type": "categorical",
+                    "mappings": [
+                      {
+                        "value": "Saldo Insuficiente na Conta Receptora",
+                        "color": "#DC2626"
+                      },
+                      {
+                        "value": "Conta de Destino Encerrada",
+                        "color": "#EA580C"
+                      },
+                      {
+                        "value": "Outros Motivos Operacionais / Judiciais",
+                        "color": "#94A3B8"
+                      }
+                    ]
+                  }
+                },
+                "label": {
+                  "show": true,
+                  "text": {
+                    "fieldName": "first(pct_formatado)",
+                    "displayName": "Montante Não Recuperado"
+                  }
+                },
+                "extra": [
+                  {
+                    "fieldName": "first(valor_formatado)",
+                    "displayName": "Montante Perdido"
+                  },
+                  {
+                    "fieldName": "first(pct_formatado)",
+                    "displayName": "Participação (%)"
+                  }
+                ]
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 75,
+            "width": 12,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "9d5bfb70",
+            "multilineTextboxSpec": {
+              "lines": [
+                "### 🛡️ 4. Inteligência de Risco & Eficácia do MED\n",
+                "\n",
+                "*Funil operacional de contestações, volume devolvido e causas de perda financeira.*"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 67,
+            "width": 12,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "eficacia-devolucao-med",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d49dc0d5",
+                  "fields": [
+                    {
+                      "name": "monthly(data_referencia)",
+                      "expression": "DATE_TRUNC(\"MONTH\", `data_referencia`)"
+                    },
+                    {
+                      "name": "avg(taxa_recuperacao_pct)",
+                      "expression": "AVG(`taxa_recuperacao_pct`)"
+                    }
+                  ],
+                  "disaggregated": false,
+                  "orders": [
+                    {
+                      "direction": "DESC",
+                      "expression": "DATE_TRUNC(\"MONTH\", `data_referencia`)"
+                    }
+                  ]
+                }
+              }
+            ],
+            "spec": {
+              "frame": {
+                "showTitle": true,
+                "title": {
+                  "value": "<span style=\"text-align:center;display:block;\"><span style=\"font-size:18px\">Taxa Efetiva MED</span></span>",
+                  "fields": []
+                }
+              },
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "avg(taxa_recuperacao_pct)",
+                  "format": {
+                    "type": "number-plain",
+                    "abbreviation": "compact",
+                    "decimalPlaces": {
+                      "type": "max",
+                      "places": 2
+                    }
+                  },
+                  "formatTemplate": "{{ @formatted }}%"
+                },
+                "period": {
+                  "fieldName": "monthly(data_referencia)",
+                  "format": {
+                    "type": "date",
+                    "date": "locale-number-month-full-year",
+                    "leadingZeros": true
+                  }
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 9,
+            "y": 5,
+            "width": 3,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "evolucao-ticket-medio-nacional-rs",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "f15ac756",
+                  "fields": [
+                    {
+                      "name": "variacao_percentual_mom_br",
+                      "expression": "`variacao_percentual_mom_br`"
+                    },
+                    {
+                      "name": "monthly(data_competencia)",
+                      "expression": "DATE_TRUNC(\"MONTH\", `data_competencia`)"
+                    },
+                    {
+                      "name": "ticket_medio_nacional",
+                      "expression": "`ticket_medio_nacional`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "frame": {
+                "showTitle": true,
+                "showDescription": true,
+                "title": {
+                  "value": "<span style=\"text-align:center;display:block\"><span style=\"font-size:18px\">Gráfico 1.2: Evolução Mensal do Ticket Médio Nacional (R$)</span></span>",
+                  "fields": []
+                },
+                "description": {
+                  "value": "<span style=\"text-align:center;display:block;\">*Média de Referência: \\~R$ 460 | Faixa típica: R$ 420 a R$ 510*</span>",
+                  "fields": []
+                }
+              },
+              "version": 3,
+              "mark": {
+                "colors": [
+                  "#FB923C"
+                ]
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "monthly(data_competencia)",
+                  "axis": {
+                    "labelAngle": 90,
+                    "title": "Período",
+                    "hideTitle": true
+                  },
+                  "format": {
+                    "type": "date",
+                    "date": "locale-number-month-full-year",
+                    "leadingZeros": true
+                  },
+                  "displayName": "Competência",
+                  "scale": {
+                    "type": "temporal"
+                  }
+                },
+                "y": {
+                  "fieldName": "ticket_medio_nacional",
+                  "format": {
+                    "type": "number-currency",
+                    "currencyCode": "BRL",
+                    "abbreviation": "compact",
+                    "decimalPlaces": {
+                      "type": "max",
+                      "places": 2
+                    },
+                    "negativeSign": "accounting"
+                  },
+                  "axis": {
+                    "title": "Ticket Médio (R$)"
+                  },
+                  "displayName": "Ticket Médio Nacional",
+                  "scale": {
+                    "type": "quantitative",
+                    "domain": {
+                      "type": "per-facet"
+                    }
+                  }
+                },
+                "label": {
+                  "show": false
+                },
+                "extra": [
+                  {
+                    "fieldName": "variacao_percentual_mom_br",
+                    "displayName": "Variação vs. Mês Anterior"
+                  }
+                ]
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 17,
+            "width": 12,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "p2p-pf-para-pf",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "78ffaebf",
+                  "fields": [
+                    {
+                      "name": "subtitulo_card_p2p",
+                      "expression": "`subtitulo_card_p2p`"
+                    },
+                    {
+                      "name": "max(ticket_medio_p2p)",
+                      "expression": "MAX(`ticket_medio_p2p`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "frame": {
+                "showTitle": true,
+                "showDescription": true,
+                "title": {
+                  "value": "<span style=\"text-align:center;display:block\"><span style=\"font-size: 18px;\">Ticket Médio P2P</span></span>",
+                  "fields": []
+                },
+                "description": {
+                  "value": "<span style=\"text-align:center;display:block\">*Base de Capilaridade (PF para PF)*</span>",
+                  "fields": []
+                }
+              },
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "max(ticket_medio_p2p)",
+                  "format": {
+                    "type": "number-currency",
+                    "currencyCode": "BRL",
+                    "abbreviation": "compact",
+                    "decimalPlaces": {
+                      "type": "max",
+                      "places": 2
+                    }
+                  }
+                },
+                "target": {
+                  "fieldName": "subtitulo_card_p2p"
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 8,
+            "y": 39,
+            "width": 4,
+            "height": 5
+          }
+        },
+        {
+          "widget": {
+            "name": "p2b-pf-para-pj",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "78ffaebf",
+                  "fields": [
+                    {
+                      "name": "subtitulo_card_p2b",
+                      "expression": "`subtitulo_card_p2b`"
+                    },
+                    {
+                      "name": "max(ticket_medio_p2b)",
+                      "expression": "MAX(`ticket_medio_p2b`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "frame": {
+                "showTitle": true,
+                "showDescription": true,
+                "title": {
+                  "value": "<span style=\"text-align:center;display:block\"><span style=\"font-size: 18px;\">Ticket Médio P2B</span></span>",
+                  "fields": []
+                },
+                "description": {
+                  "value": "<span style=\"text-align:center;display:block\">*Termômetro do Varejo (PF para PJ)*</span>",
+                  "fields": []
+                }
+              },
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "max(ticket_medio_p2b)",
+                  "format": {
+                    "type": "number-currency",
+                    "currencyCode": "BRL",
+                    "abbreviation": "compact",
+                    "decimalPlaces": {
+                      "type": "max",
+                      "places": 2
+                    }
+                  }
+                },
+                "target": {
+                  "fieldName": "subtitulo_card_p2b"
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 4,
+            "y": 39,
+            "width": 4,
+            "height": 5
+          }
+        },
+        {
+          "widget": {
+            "name": "b2b-pj-para-pj",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "78ffaebf",
+                  "fields": [
+                    {
+                      "name": "subtitulo_card_b2b",
+                      "expression": "`subtitulo_card_b2b`"
+                    },
+                    {
+                      "name": "max(ticket_medio_b2b)",
+                      "expression": "MAX(`ticket_medio_b2b`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "frame": {
+                "showTitle": true,
+                "showDescription": true,
+                "title": {
+                  "value": "<span style=\"text-align:center;display:block\"><span style=\"font-size: 18px;\">Ticket Médio B2B</span></span>",
+                  "fields": []
+                },
+                "description": {
+                  "value": "<span style=\"text-align:center;display:block\">*Motor de Liquidez (PJ para PJ)*</span>",
+                  "fields": []
+                }
+              },
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "max(ticket_medio_b2b)",
+                  "format": {
+                    "type": "number-currency",
+                    "currencyCode": "BRL",
+                    "abbreviation": "compact",
+                    "decimalPlaces": {
+                      "type": "max",
+                      "places": 2
+                    }
+                  }
+                },
+                "target": {
+                  "fieldName": "subtitulo_card_b2b"
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 39,
+            "width": 4,
+            "height": 5
+          }
+        },
+        {
+          "widget": {
+            "name": "saldo-liquido-inter-regional-consolidado-historico",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "18897e75",
+                  "fields": [
+                    {
+                      "name": "first(saldo_total_periodo)",
+                      "expression": "FIRST(`saldo_total_periodo`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "frame": {
+                "showTitle": true,
+                "showDescription": true,
+                "title": {
+                  "value": "<span style=\"text-align:center;display:block;\"><span style=\"font-size: 18px;\">Saldo Líquido Inter-Regional</span></span>",
+                  "fields": []
+                },
+                "description": {
+                  "value": "<span style=\"text-align:center;display:block;\">Visão Estrutural (Acumulado Histórico)</span>",
+                  "fields": []
+                }
+              },
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "first(saldo_total_periodo)",
+                  "format": {
+                    "type": "number-currency",
+                    "currencyCode": "BRL",
+                    "abbreviation": "compact",
+                    "decimalPlaces": {
+                      "type": "max",
+                      "places": 2
+                    }
+                  }
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 25,
+            "width": 3,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "4e379d40",
+            "multilineTextboxSpec": {
+              "lines": [
+                "### 📱📊 Canais de Acesso por Faixa Etária\n",
+                "\n",
+                "* **⚡ Até 29 anos (Até 19 e 20 a 29 anos):** Concentram a maior aderência relativa a meios integrados e de rápida execução no varejo, com predomínio expressivo do \\*\\*QR Code Dinâmico (`QRDN`)\\*\\* e de **Chaves Pix (`DICT`)** no dia a dia, operando com ticket médio unitário mais enxuto.\n",
+                "* **💼 30 a 59 anos (30-39, 40-49 e 50-59 anos):** Núcleo de maior volume e liquidez transacional agregada. Mantêm ampla hegemonia do uso de \\*\\*Chaves Pix (`DICT`)\\*\\* combinada à consolidação progressiva de liquidações comerciais e **Iniciação de Pagamento (`INIC`)**.\n",
+                "* **🏦 Mais de 60 anos:** Apresentam a maior fatia proporcional de \\*\\*Digitação Manual (`MANU`)\\*\\* de agência e conta bancária, refletindo hábitos de liquidação pontual e transferências planejadas de maior montante unitário (ticket médio mais elevado).\n",
+                "* **🔍 Não Informado / Não se Aplica:** Consolida registros de pessoas jurídicas (PJ) ou liquidações sem chave etária transmitida pela instituição de origem; mantidos ao final para preservar a integridade dos volumes totais.\n",
+                "\n",
+                "---\n",
+                "\n",
+                "<span style=\"font-size:13px;color:#5D6D7E;font-weight:bold\">ℹ️ GLOSSÁRIO DE SIGLAS NORMATIVAS (BACEN)</span>\n",
+                "\n",
+                "• **`DICT`** — Diretório de Identificadores de Contas Transacionais *(Chaves Pix: CPF/CNPJ, E-mail, Celular ou EVP)*.<br>• **`QRDN`&#32;/&#32;&#32; `QRMS`** — QR Code Dinâmico *(cobrança com ID único)* / QR Code Estático *(código fixo de balcão)*.<br>• **`MANU`** — Inserção Manual *(Digitação direta de Agência e Conta bancária)*.<br>• **`INIC`&#32;/&#32;&#32; `ITP`** — Iniciador de Transação de Pagamento via *Open Finance*.<br>• **Outras Formas** — Débitos automáticos programados, devoluções sistêmicas do MED ou transações sem modalidade declarada pelo participante pagador."
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 60,
+            "width": 12,
+            "height": 7
+          }
+        },
+        {
+          "widget": {
+            "name": "grafico-4-3-evolucao-mensal-recuperacao-med",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d49dc0d5",
+                  "fields": [
+                    {
+                      "name": "first(montante_devolvido_formatado)",
+                      "expression": "FIRST(`montante_devolvido_formatado`)"
+                    },
+                    {
+                      "name": "first(montante_aceito_formatado)",
+                      "expression": "FIRST(`montante_aceito_formatado`)"
+                    },
+                    {
+                      "name": "monthly(data_referencia)",
+                      "expression": "DATE_TRUNC(\"MONTH\", `data_referencia`)"
+                    },
+                    {
+                      "name": "avg(taxa_recuperacao_pct)",
+                      "expression": "AVG(`taxa_recuperacao_pct`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "frame": {
+                "showTitle": true,
+                "showDescription": true,
+                "title": {
+                  "value": "<span style=\"text-align:center;display:block;\"><span style=\"font-size: 18px;\">Gráfico 4.3 Evolução Mensal da Recuperação MED (%)</span></span>",
+                  "fields": []
+                },
+                "description": {
+                  "value": "<span style=\"text-align:center;display:block;\">*Percentual mensal de liquidação de devoluções sobre o total de fraudes confirmadas, destacando a eficácia das medidas de bloqueio cautelar e retenção de saldo*</span>",
+                  "fields": []
+                }
+              },
+              "version": 3,
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "monthly(data_referencia)",
+                  "format": {
+                    "type": "date",
+                    "date": "locale-number-month-full-year",
+                    "leadingZeros": true
+                  },
+                  "axis": {
+                    "labelAngle": 90
+                  },
+                  "displayName": "Mês de Referência",
+                  "scale": {
+                    "type": "temporal"
+                  }
+                },
+                "y": {
+                  "fieldName": "avg(taxa_recuperacao_pct)",
+                  "displayName": "Taxa de Recuperação MED (%)",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "extra": [
+                  {
+                    "fieldName": "first(montante_devolvido_formatado)",
+                    "displayName": "Valor Efetivamente Devolvido"
+                  },
+                  {
+                    "fieldName": "first(montante_aceito_formatado)",
+                    "displayName": "Total de Fraudes Aceitas"
+                  }
+                ]
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 81,
+            "width": 12,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "cf440cc5",
+            "multilineTextboxSpec": {
+              "lines": [
+                "### 🛡️ Monitoramento do Mecanismo Especial de Devolução (MED)\n",
+                "\n",
+                "Painel integrado de diagnóstico regulatório e eficiência de repatriação de recursos decorrentes de fraudes e golpes no ecossistema Pix:\n",
+                "\n",
+                "* **4.1 Funil de Liquidação:** Acompanha a taxa de atrito regulatório entre as contestações abertas, as fraudes confirmadas pelas instituições e o volume monetário efetivamente estornado à vítima.\n",
+                "* **4.2 Gargalos de Recuperação:** Identifica o fator primário que inviabiliza o estorno, destacando o papel crítico do esvaziamento imediato das contas receptoras (*contas de passagem / \"laranjas\"*).\n",
+                "* **4.3 Eficiência Histórica:** Monitora a tendência temporal da taxa de sucesso de devolução (`Devolvido / Aceito`), refletindo a efetividade prática de bloqueios cautelares e políticas conjuntas de mitigação.\n",
+                "\n",
+                "> **💡 Diretriz de Leitura:** Oscilações no gráfico **4.3** decorrem principalmente da velocidade de evasão de fundos antes da ativação do MED, e não de recusas operacionais do sistema."
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 87,
+            "width": 12,
+            "height": 4
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_CANVAS",
+      "layoutVersion": "GRID_V1"
+    }
+  ],
+  "uiSettings": {
+    "theme": {
+      "canvasBackgroundColor": {
+        "light": "#FAFAFB",
+        "dark": "#0B0F19"
+      },
+      "widgetBackgroundColor": {
+        "light": "#FFFFFF",
+        "dark": "#1E293B"
+      },
+      "widgetBorderColor": {
+        "dark": "#334155"
+      },
+      "fontColor": {
+        "light": "#11171C",
+        "dark": "#E8ECF0"
+      },
+      "selectionColor": {
+        "light": "#2272B4",
+        "dark": "#8ACAFF"
+      },
+      "widgetHeaderAlignment": "LEFT",
+      "widgetCornerRadius": 12,
+      "fontSettings": {
+        "widgetTitle": {
+          "fontColor": {
+            "dark": "#F8FAFC"
+          }
+        },
+        "fieldTitle": {
+          "fontColor": {
+            "dark": "#94A3B8"
+          }
+        }
+      },
+      "gridLineColor": {
+        "dark": "#1E293B"
+      },
+      "axisLineColor": {
+        "dark": "#64748B"
+      },
+      "visualizationColorMappings": [
+        {
+          "value": "Sum of taxa_contestacao_pct",
+          "color": "#FFAB00"
+        },
+        {
+          "value": "Emissora Líquida",
+          "color": "#077A9D"
+        }
+      ]
+    },
+    "applyModeEnabled": false
+  }
+}

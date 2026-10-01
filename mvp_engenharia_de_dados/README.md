@@ -13,7 +13,7 @@ A solução foi desenvolvida na plataforma **Databricks**, organizada em três c
 
 O objetivo principal é construir um fluxo completo de dados para responder a perguntas práticas do dia a dia do Pix:
 
-1. **Crescimento e Fraudes:** Medir o crescimento mensal do Pix (número de transações, montante total e valor médio) e verificar se os pedidos de contestação por suspeita de fraude acompanharam essa evolução;
+1. **Crescimento e Fraudes:** Medir o crescimento mensal do Pix (número de transações, montante total e valor médio);
 2. **Diferenças Regionais:** Identificar quais regiões movimentam mais dinheiro, qual o gasto médio por pessoa e que áreas mais enviam ou recebem recursos;
 3. **Perfil de Uso:** Compreender as transferências entre pessoas e empresas (P2P, P2B, B2B) e os meios de pagamento preferidos (chave Pix, QR Code ou dados manuais da conta) de acordo com a faixa etária;
 4. **Devolução do Dinheiro (MED):** Descobrir a porcentagem de pedidos de devolução aceitos, o valor efetivamente recuperado e o motivo pelo qual o dinheiro não é devolvido (como a conta recebedora estar sem saldo);

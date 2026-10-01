@@ -22,6 +22,8 @@ Este repositório armazena os artefatos, consultas SQL e a estrutura de dados de
 * **Gráfico 1.2: Evolução Mensal do Ticket Médio Nacional (R$)**  
   *Média de Referência: ~R$ 460 | Faixa típica: R$ 420 a R$ 510*
 
+<img width="1504" height="1165" alt="image" src="https://github.com/user-attachments/assets/83472402-925d-481a-b932-a5d5180f8355" />
+
 ---
 
 ### 📍 2. Panorama Regional & Demografia IBGE: Liquidez e Intensidade Per Capita
@@ -33,6 +35,8 @@ Este repositório armazena os artefatos, consultas SQL e a estrutura de dados de
 * **Gráfico 2.2: Balança Regional e Concentração de Volume Pix**  
   *Montante total transacionado (R$) e porcentagem de concentração regional do Pix (valores apresentados nas barras e no detalhe interativo).*
 
+<img width="1507" height="676" alt="image" src="https://github.com/user-attachments/assets/e054c17d-b85c-4d45-a6e5-00bd4a256964" />
+
 ---
 
 ### 👥 3. Comportamento PF/PJ & Canais de Pagamento
@@ -41,6 +45,8 @@ Este repositório armazena os artefatos, consultas SQL e a estrutura de dados de
   * Ticket Médio B2B *(Motor de Liquidez - PJ para PJ)*
   * Ticket Médio P2B *(Termômetro Varejo - PF para PJ)*
   * Ticket Médio P2P *(Base de Capilaridade - PF para PF)*
+
+<img width="1507" height="1175" alt="image" src="https://github.com/user-attachments/assets/bb5bc37f-0b65-4b91-a282-346c1636de39" />
 
 ---
 
@@ -52,6 +58,8 @@ Este repositório armazena os artefatos, consultas SQL e a estrutura de dados de
   *Distribuição dos fatores que impedem o ressarcimento após deferimento da contestação.*
 * **Gráfico 4.3: Evolução Mensal da Recuperação MED (%)**  
   *Percentual mensal de liquidação de devoluções sobre o total de fraudes confirmadas, destacando a eficácia das medidas de bloqueio cautelar e retenção de saldo.*
+
+<img width="1512" height="1146" alt="image" src="https://github.com/user-attachments/assets/60930504-93ae-4871-b55c-c618e0a7c6c0" />
 
 ---
 
